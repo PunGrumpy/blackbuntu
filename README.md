@@ -23,6 +23,7 @@ The current version of Blackbuntu is based on Ubuntu 20.04.3 LTS. More informati
 | Release Name | Focal Fossa |
 | Release Date | 2022/01/27 |
 | Disk Name | Blackbuntu 20.04.3 LTS amd64 "Focal Fossa" |
+| Kernel | 5.4.0-97-generic |
 
 * * *
 
