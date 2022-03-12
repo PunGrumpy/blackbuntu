@@ -24,6 +24,7 @@ Libraries and tools present in the Blackbuntu pentesting distribution
 - [liborc-0.4-dev](https://github.com/lvaccaro/liborc-0.4-dev)
 - [libosmocore-dev](https://github.com/lvaccaro/libosmocore-dev)
 - [libreadline-dev](https://github.com/lvaccaro/libreadline-dev)
+- [libsodium-dev](https://github.com/lvaccaro/libsodium-dev)
 - [libspdlog-dev](https://github.com/lvaccaro/libspdlog-dev)
 - [libsqlite3-dev](https://github.com/lvaccaro/libsqlite3-dev)
 - [libssl-dev](https://github.com/lvaccaro/libssl-dev)

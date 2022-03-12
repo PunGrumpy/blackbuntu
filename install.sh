@@ -59,7 +59,7 @@ apt-get -y install gnome-firmware gnome-tweak-tool
 
 ## Install system libraries
 ## ------------------------
-apt-get -y install libbz2-dev libcppunit-dev libcurl4-openssl-dev libffi-dev libfmt-dev libgdbm-dev libglib2.0-dev libglib2.0-dev-bin libgmp-dev libgspell-1-dev libgtkmm-3.0-dev libgtksourceviewmm-3.0-dev liblog4cpp5-dev libncurses5-dev libnss3-dev liborc-0.4-dev libosmocore-dev libreadline-dev libspdlog-dev libsqlite3-dev libssl-dev libtool libuchardet-dev libxml2 libxml++2.6-dev libxml2-dev libxslt1-dev zlib1g-dev
+apt-get -y install libbz2-dev libcppunit-dev libcurl4-openssl-dev libffi-dev libfmt-dev libgdbm-dev libglib2.0-dev libglib2.0-dev-bin libgmp-dev libgspell-1-dev libgtkmm-3.0-dev libgtksourceviewmm-3.0-dev liblog4cpp5-dev libncurses5-dev libnss3-dev liborc-0.4-dev libosmocore-dev libreadline-dev libsodium-dev libspdlog-dev libsqlite3-dev libssl-dev libtool libuchardet-dev libxml2 libxml++2.6-dev libxml2-dev libxslt1-dev zlib1g-dev
 
 ## Install `python`
 ## ----------------

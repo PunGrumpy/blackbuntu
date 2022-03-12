@@ -35,7 +35,7 @@ The installation of **Blackbuntu** as primary operating system is recommended fo
 
 #### Tools
 
-Currently Blackbuntu includes [208 pre-installed libraries and tools](https://github.com/neoslab/blackbuntu/blob/main/TOOLS.md) dedicated to ethical hacking, pentesting and cybersecurity.
+Currently Blackbuntu includes [209 pre-installed libraries and tools](https://github.com/neoslab/blackbuntu/blob/main/TOOLS.md) dedicated to ethical hacking, pentesting and cybersecurity.
 
 * * *
 
