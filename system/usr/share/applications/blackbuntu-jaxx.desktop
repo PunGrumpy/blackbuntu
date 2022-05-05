@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Categories=Crypto;
+Exec=sh -c '/opt/blackbuntu/crypto/jaxx/jaxx.AppImage; $SHELL'
+Icon=/usr/share/icons/blackbuntu/blackbuntu-jaxx.png
+Name=Jaxx
+Terminal=false
+Type=Application

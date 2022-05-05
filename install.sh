@@ -298,18 +298,26 @@ mkdir -p /opt/blackbuntu/crypto/electrum
 mv /tmp/electrum.AppImage /opt/blackbuntu/crypto/electrum/
 chmod +x /opt/blackbuntu/crypto/electrum/electrum.AppImage
 
+## Install `jaxx`
+## https://jaxx.io
+## ---------------
+wget --progress=dot -O "/tmp/jaxx.AppImage" "https://download-liberty.jaxx.io/Jaxx.Liberty-2.6.5.AppImage"
+mkdir -p /opt/blackbuntu/crypto/jaxx
+mv /tmp/electrum.AppImage /opt/blackbuntu/crypto/jaxx/
+chmod +x /opt/blackbuntu/crypto/electrum/jaxx.AppImage
+
 ## Install `maltego`
 ## https://maltego.com
 ## -------------------
-wget --progress=dot -O "/tmp/Maltego.v4.2.19.13940.deb" "https://maltego-downloads.s3.us-east-2.amazonaws.com/linux/Maltego.v4.2.19.13940.deb"
-dpkg -i /tmp/Maltego.v4.2.19.13940.deb
+wget --progress=dot -O "/tmp/Maltego.v4.3.0.deb" "https://maltego-downloads.s3.us-east-2.amazonaws.com/linux/Maltego.v4.3.0.deb"
+dpkg -i /tmp/Maltego.v4.3.0.deb
 
 ## Install `monero`
 ## https://www.getmonero.org
 ## -------------------------
-wget --progress=dot -O "/tmp/monero-gui-linux-x64-v0.17.3.1.tar.bz2" "https://downloads.getmonero.org/gui/monero-gui-linux-x64-v0.17.3.1.tar.bz2"
-tar -xf /tmp/monero-gui-linux-x64-v0.17.3.1.tar.bz2
-mv /tmp/monero-gui-v0.17.3.1 /opt/blackbuntu/crypto/monero
+wget --progress=dot -O "/tmp/monero-gui-linux-x64-v0.17.3.2.tar.bz2" "https://downloads.getmonero.org/gui/monero-gui-linux-x64-v0.17.3.2.tar.bz2"
+tar -xf /tmp/monero-gui-linux-x64-v0.17.3.2.tar.bz2
+mv /tmp/monero-gui-v0.17.3.2 /opt/blackbuntu/crypto/monero
 chmod +x /opt/blackbuntu/crypto/monero/monero-wallet-gui
 
 ## Install `wpscan`
