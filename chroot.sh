@@ -303,18 +303,10 @@ mv /tmp/burpsuite.jar /opt/blackbuntu/exploitation/burpsuite
 ## Install `electrum`
 ## https://electrum.org
 ## --------------------
-wget --progress=dot -O "/tmp/electrum.AppImage" "https://download.electrum.org/4.2.1/electrum-4.2.1-x86_64.AppImage"
+wget --progress=dot -O "/tmp/electrum.AppImage" "https://download.electrum.org/4.2.2/electrum-4.2.2-x86_64.AppImage"
 mkdir -p /opt/blackbuntu/crypto/electrum
 mv /tmp/electrum.AppImage /opt/blackbuntu/crypto/electrum/
 chmod +x /opt/blackbuntu/crypto/electrum/electrum.AppImage
-
-## Install `jaxx`
-## https://jaxx.io
-## ---------------
-wget --progress=dot -O "/tmp/jaxx.AppImage" "https://download-liberty.jaxx.io/Jaxx.Liberty-2.6.5.AppImage"
-mkdir -p /opt/blackbuntu/crypto/jaxx
-mv /tmp/electrum.AppImage /opt/blackbuntu/crypto/jaxx/
-chmod +x /opt/blackbuntu/crypto/electrum/jaxx.AppImage
 
 ## Install `maltego`
 ## https://maltego.com
