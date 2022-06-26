@@ -63,7 +63,11 @@ apt-get -y install libbz2-dev libcppunit-dev libcurl4-openssl-dev libffi-dev lib
 
 ## Install `python`
 ## ----------------
-apt-get -y install python3-flask python3-future python3-geoip python3-httplib2 python3-numpy python3-paramiko python3-pip python3-psutil python3-pycurl python3-requests python3-scapy python3-scipy python3-setuptools python3-urllib3 python3-virtualenv python3-wheel
+apt-get -y install python3-flask python3-future python3-geoip python3-httplib2 python3-numpy python3-paramiko python3-pip python3-psutil python3-pycurl python3-pyqt5 python3-requests python3-scapy python3-scipy python3-setuptools python3-urllib3 python3-virtualenv python3-wheel
+
+## Install `Qt5`
+## -------------
+apt-get -y install pyqt5-dev-tools qttools5-dev-tools qt5-default qt5-doc qt5-doc-html qtbase5-examples qtcreator
 
 ## Install `ruby`
 ## -------------
