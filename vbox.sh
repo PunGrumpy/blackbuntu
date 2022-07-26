@@ -336,12 +336,6 @@ cp /tmp/blackbuntu/system/etc/skel/bashrc /etc/skel/.bashrc
 rm -f /root/.bashrc
 cp /tmp/blackbuntu/system/root/bashrc /root/.bashrc
 
-## Replace `dconf`
-## --------------
-mkdir -p /etc/skel/.config
-rm -rf /etc/skel/.config/dconf
-cp -r /tmp/blackbuntu/system/etc/skel/config/dconf /etc/skel/.config/
-
 ## Configure backgrounds
 ## ---------------------
 rm -rf /usr/share/backgrounds/*
@@ -353,18 +347,6 @@ cp /tmp/blackbuntu/system/usr/share/gnome-background-properties/* /usr/share/gno
 ## -------------------
 cp /tmp/blackbuntu/system/usr/local/bin/* /usr/local/bin/
 chmod +x /usr/local/bin/blackbuntu-*
-
-## Replace `pixmaps`
-## ----------------
-rm -f /usr/share/ubiquity/pixmaps/cd_in_tray.png
-rm -f /usr/share/ubiquity/pixmaps/ubuntu_installed.png
-cp /tmp/blackbuntu/system/usr/share/ubiquity/pixmaps/cd_in_tray.png /usr/share/ubiquity/pixmaps/
-cp /tmp/blackbuntu/system/usr/share/ubiquity/pixmaps/ubuntu_installed.png /usr/share/ubiquity/pixmaps/
-
-## Replace `ubiquity-slideshow`
-## ---------------------------
-rm -rf /usr/share/ubiquity-slideshow
-cp -r /tmp/blackbuntu/system/usr/share/ubiquity-slideshow /usr/share/
 
 ## Configure `plymouth`
 ## --------------------
@@ -408,7 +390,7 @@ rm -f /usr/share/applications/wireshark.desktop
 
 ## Configure `gdm`
 ## ---------------
-#blackbuntu-gdm
+blackbuntu-gdm
 
 ## Clean `tmp` directory
 ## ---------------------
