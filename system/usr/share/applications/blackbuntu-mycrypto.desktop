@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Categories=Crypto;
+Exec=sh -c '/opt/blackbuntu/crypto/mycrypto/mycrypto.AppImage; $SHELL'
+Icon=/usr/share/icons/blackbuntu/blackbuntu-mycrypto.png
+Name=MyCrypto
+Terminal=false
+Type=Application

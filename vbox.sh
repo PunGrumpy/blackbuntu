@@ -289,13 +289,30 @@ wget --progress=dot -O "/tmp/burpsuite.jar" "https://portswigger.net/burp/releas
 mkdir -p /opt/blackbuntu/exploitation/burpsuite
 mv /tmp/burpsuite.jar /opt/blackbuntu/exploitation/burpsuite
 
-## Install `electrum`
+## Install `atomicwallet`
+## https://atomicwallet.io/
+## ------------------------
+wget --progress=dot -O "/tmp/atomicwallet.AppImage" "https://get.atomicwallet.io/download/atomicwallet-2.49.2-255.AppImage"
+mkdir -p /opt/blackbuntu/crypto/atomicwallet
+mv /tmp/atomicwallet.AppImage /opt/blackbuntu/crypto/atomicwallet/
+chmod +x /opt/blackbuntu/crypto/atomicwallet/atomicwallet.AppImage
+
+
+## Install `electrum-btc`
 ## https://electrum.org
 ## --------------------
-wget --progress=dot -O "/tmp/electrum.AppImage" "https://download.electrum.org/4.2.2/electrum-4.2.2-x86_64.AppImage"
-mkdir -p /opt/blackbuntu/crypto/electrum
-mv /tmp/electrum.AppImage /opt/blackbuntu/crypto/electrum/
-chmod +x /opt/blackbuntu/crypto/electrum/electrum.AppImage
+wget --progress=dot -O "/tmp/electrum-btc.AppImage" "https://download.electrum.org/4.2.2/electrum-4.2.2-x86_64.AppImage"
+mkdir -p /opt/blackbuntu/crypto/electrum-btc
+mv /tmp/electrum-btc.AppImage /opt/blackbuntu/crypto/electrum-btc/
+chmod +x /opt/blackbuntu/crypto/electrum-btc/electrum-btc.AppImage
+
+## Install `electrum-ltc`
+## https://electrum-ltc.org
+## ------------------------
+wget --progress=dot -O "/tmp/electrum-ltc.AppImage" "https://electrum-ltc.org/download/electrum-ltc-4.2.2.1-x86_64.AppImage"
+mkdir -p /opt/blackbuntu/crypto/electrum-ltc
+mv /tmp/electrum-ltc.AppImage /opt/blackbuntu/crypto/electrum-ltc/
+chmod +x /opt/blackbuntu/crypto/electrum-ltc/electrum-ltc.AppImage
 
 ## Install `maltego`
 ## https://maltego.com
@@ -310,6 +327,14 @@ wget --progress=dot -O "/tmp/monero-gui-linux-x64-v0.18.0.0.tar.bz2" "https://do
 tar -xf /tmp/monero-gui-linux-x64-v0.18.0.0.tar.bz2
 mv /tmp/monero-gui-v0.18.0.0 /opt/blackbuntu/crypto/monero
 chmod +x /opt/blackbuntu/crypto/monero/monero-wallet-gui
+
+## Install `MyCrypto`
+## https://mycrypto.com
+## --------------------
+wget --progress=dot -O "/tmp/mycrypto.AppImage" "https://github.com/MyCryptoHQ/MyCrypto/releases/download/1.7.17/linux-x86-64_1.7.17_MyCrypto.AppImage"
+mkdir -p /opt/blackbuntu/crypto/mycrypto
+mv /tmp/mycrypto.AppImage /opt/blackbuntu/crypto/mycrypto/
+chmod +x /opt/blackbuntu/crypto/electrum-ltc/mycrypto.AppImage
 
 ## Install `wpscan`
 ## https://wpscan.com
