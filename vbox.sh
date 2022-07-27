@@ -340,7 +340,8 @@ cp /tmp/blackbuntu/system/root/bashrc /root/.bashrc
 ## ---------------------
 rm -rf /usr/share/backgrounds/*
 cp /tmp/blackbuntu/system/usr/share/backgrounds/* /usr/share/backgrounds/
-rm -f /usr/share/gnome-background-properties/*
+rm -f /usr/share/gnome-background-properties/jammy-wallpapers.xml
+rm -f /usr/share/gnome-background-properties/ubuntu-wallpapers.xml
 cp /tmp/blackbuntu/system/usr/share/gnome-background-properties/* /usr/share/gnome-background-properties/
 
 ## Configure utilities
@@ -387,10 +388,6 @@ rm -f /usr/share/applications/ophcrack.desktop
 rm -f /usr/share/applications/torbrowser-settings.desktop
 rm -f /usr/share/applications/ubiquity.desktop
 rm -f /usr/share/applications/wireshark.desktop
-
-## Configure `gdm`
-## ---------------
-blackbuntu-gdm
 
 ## Clean `tmp` directory
 ## ---------------------
