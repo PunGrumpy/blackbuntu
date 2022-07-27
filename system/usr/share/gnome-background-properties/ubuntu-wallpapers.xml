@@ -22,7 +22,7 @@
         <name xml:lang="uk">Blackbuntu</name>
         <name xml:lang="uz">Blackbuntu</name>
         <name xml:lang="zh_CN">Blackbuntu</name>
-        <filename>/usr/share/backgrounds/blackbuntu-default-2560x1440.jpg</filename>
+        <filename>/usr/share/backgrounds/blackbuntu-redteam-2560x1440.jpg</filename>
         <options>zoom</options>
         <pcolor>#333333</pcolor>
         <scolor>#333333</scolor>
@@ -49,7 +49,7 @@
         <name xml:lang="uk">Minimalism</name>
         <name xml:lang="uz">Minimalism</name>
         <name xml:lang="zh_CN">Minimalism</name>
-        <filename>/usr/share/backgrounds/blackbuntu-minimalism-2560x1440.jpg</filename>
+        <filename>/usr/share/backgrounds/blackbuntu-default-2560x1440.jpg</filename>
         <options>zoom</options>
         <pcolor>#333333</pcolor>
         <scolor>#333333</scolor>

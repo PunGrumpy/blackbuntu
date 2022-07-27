@@ -334,7 +334,7 @@ chmod +x /opt/blackbuntu/crypto/monero/monero-wallet-gui
 wget --progress=dot -O "/tmp/mycrypto.AppImage" "https://github.com/MyCryptoHQ/MyCrypto/releases/download/1.7.17/linux-x86-64_1.7.17_MyCrypto.AppImage"
 mkdir -p /opt/blackbuntu/crypto/mycrypto
 mv /tmp/mycrypto.AppImage /opt/blackbuntu/crypto/mycrypto/
-chmod +x /opt/blackbuntu/crypto/electrum-ltc/mycrypto.AppImage
+chmod +x /opt/blackbuntu/crypto/mycrypto/mycrypto.AppImage
 
 ## Install `wpscan`
 ## https://wpscan.com

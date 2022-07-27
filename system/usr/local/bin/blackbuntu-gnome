@@ -6,12 +6,12 @@
 
 ## Dark theme
 ## ----------
-#gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
+gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
 
 ## Wallpaper
 ## ---------
-gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/blackbuntu-warty-2560x1440.jpg
+gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/blackbuntu-redteam-2560x1440
 
 ## Extend Height
 ## -------------
