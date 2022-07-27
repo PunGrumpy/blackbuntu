@@ -59,7 +59,7 @@ apt-get -y install gnome-firmware gnome-tweaks
 
 ## Install system libraries
 ## ------------------------
-apt-get -y install libbz2-dev libcppunit-dev libcurl4-openssl-dev libffi-dev libfmt-dev libgdbm-dev libglib2.0-dev libglib2.0-dev-bin libgmp-dev libgspell-1-dev libgtkmm-3.0-dev libgtksourceviewmm-3.0-dev liblog4cpp5-dev libncurses5-dev libnss3-dev liborc-0.4-dev libosmocore-dev libreadline-dev libsodium-dev libspdlog-dev libsqlite3-dev libssl-dev libtool libuchardet-dev libxml2 libxml++2.6-dev libxml2-dev libxslt1-dev zlib1g-dev
+apt-get -y install libbz2-dev libcppunit-dev libcurl4-openssl-dev libffi-dev libfmt-dev libfuse2 libgdbm-dev libglib2.0-dev libglib2.0-dev-bin libgmp-dev libgspell-1-dev libgtkmm-3.0-dev libgtksourceviewmm-3.0-dev liblog4cpp5-dev libncurses5-dev libnss3-dev liborc-0.4-dev libosmocore-dev libreadline-dev libsodium-dev libspdlog-dev libsqlite3-dev libssl-dev libtool libuchardet-dev libxml2 libxml++2.6-dev libxml2-dev libxslt1-dev zlib1g-dev
 
 ## Install `python`
 ## ----------------
@@ -79,7 +79,7 @@ apt-get -y install apt-transport-https apt-utils
 
 ## Install common packages
 ## -----------------------
-apt-get -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre dirmngr dkms doxygen easytag filezilla g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools openvpn pidgin pkg-config proxychains screen screenfetch secure-delete simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
+apt-get -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre dirmngr dkms doxygen easytag filezilla fuse g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools openvpn pidgin pkg-config proxychains screen screenfetch secure-delete simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
 
 ## Install files roller
 ## --------------------
@@ -334,7 +334,7 @@ chmod +x /opt/blackbuntu/crypto/monero/monero-wallet-gui
 wget --progress=dot -O "/tmp/mycrypto.AppImage" "https://github.com/MyCryptoHQ/MyCrypto/releases/download/1.7.17/linux-x86-64_1.7.17_MyCrypto.AppImage"
 mkdir -p /opt/blackbuntu/crypto/mycrypto
 mv /tmp/mycrypto.AppImage /opt/blackbuntu/crypto/mycrypto/
-chmod +x /opt/blackbuntu/crypto/electrum-ltc/electrum-ltc.AppImage
+chmod +x /opt/blackbuntu/crypto/mycrypto/mycrypto.AppImage
 
 ## Install `wpscan`
 ## https://wpscan.com
