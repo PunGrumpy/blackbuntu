@@ -23,7 +23,6 @@ The current version of Blackbuntu is based on Ubuntu 20.04.3 LTS. More informati
 | Release Name | Jammy Jellyfish |
 | Release Date | 2022/07/31 |
 | Disk Name | Blackbuntu 22.04.1 LTS amd64 "Jammy Jellyfish" |
-| Kernel | 5.15.0-41-generic |
 
 * * *
 
@@ -40,7 +39,18 @@ The current version of Blackbuntu is based on Ubuntu 20.04.3 LTS. More informati
 | Release Name | Focal Fossa |
 | Release Date | 2022/01/27 |
 | Disk Name | Blackbuntu 20.04.3 LTS amd64 "Focal Fossa" |
-| Kernel | 5.4.0-97-generic |
+
+| Key | Description |
+| :--- | :--- |
+| Custom Disk | [blackbuntu-18.04.3-lts-amd64.iso](https://download.blackbuntu.org/18.04.3/blackbuntu-18.04.3-lts-amd64.iso) |
+| Size | 4,51 GB (4 465 778 688 bytes) |
+| Checksum | b95f6c4c68b893825bbf258cef4fff73 |
+| Checksum File | [blackbuntu-18.04.3-lts-amd64.md5](https://download.blackbuntu.org/18.04.3/blackbuntu-18.04.3-lts-amd64.md5) |
+| Version | 18.04.3 |
+| Volume ID | Blackbuntu 18.04.3 LTS amd64 | |
+| Release Name | Bionic Beaver |
+| Release Date | 2019/10/13 |
+| Disk Name | Blackbuntu 18.04.3 LTS amd64 "Bionic Beaver" |
 
 * * *
 
