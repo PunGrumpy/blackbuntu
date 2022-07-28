@@ -1,41 +1,8 @@
 #!/usr/bin/env bash
 #
-# [Release]: Blackbuntu 20.04.3 LTS amd64
-# [Website]: https://blackbuntu.org/p/releases/?ver=20.04.3
+# [Release]: Blackbuntu 22.04.1 LTS amd64
+# [Website]: https://blackbuntu.org/p/releases/?ver=22.04.1
 # [License]: http://www.gnu.org/licenses/gpl-3.0.html
-
-## Dark theme
-## ----------
-gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
-gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
-
-## Wallpaper
-## ---------
-gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/blackbuntu-redteam-2560x1440.jpg
-
-## Extend Height
-## -------------
-gsettings set org.gnome.shell.extensions.dash-to-dock extend-height true
-
-## Dock Position
-## -------------
-gsettings set org.gnome.shell.extensions.dash-to-dock dock-position LEFT
-
-## Dock Transparency
-## -----------------
-gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
-
-## Dock Icon Size
-## --------------
-gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 32
-
-## Dock Unity
-## ----------
-gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items false
-
-## Dock Favorites
-## --------------
-gsettings set org.gnome.shell favorite-apps "['org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'torbrowser.desktop', 'org.kde.kate.desktop', 'org.keepassxc.KeePassXC.desktop', 'rhythmbox.desktop', 'gnome-control-center.desktop']"
 
 ## Create Apps Folders
 ## -------------------
