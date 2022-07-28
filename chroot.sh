@@ -55,7 +55,7 @@ apt-get -y purge --auto-remove aisleriot gnome-initial-setup gnome-mahjongg gnom
 
 ## Install `gnome` extras
 ## ----------------------
-apt-get -y install gnome-firmware gnome-tweaks
+apt-get -y install gnome-shell-extension-manager gnome-shell-extensions gnome-firmware gnome-tweaks
 
 ## Install system libraries
 ## ------------------------

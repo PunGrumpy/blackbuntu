@@ -14,6 +14,23 @@ The current version of Blackbuntu is based on Ubuntu 20.04.3 LTS. More informati
 
 | Key | Description |
 | :--- | :--- |
+| Custom Disk | [blackbuntu-22.04.1-lts-amd64.iso](https://download.blackbuntu.org/22.04.1/blackbuntu-22.04.1-lts-amd64.iso) |
+| Size | 6,31 GiB (6 779 813 888 bytes) |
+| Checksum | a8dd5b7dd6e7d865f3e72f3547769738 |
+| Checksum File | [blackbuntu-22.04.1-lts-amd64.md5](https://download.blackbuntu.org/22.04.1/blackbuntu-22.04.1-lts-amd64.md5) |
+| Version | 22.04.1 |
+| Volume ID | Blackbuntu 22.04.1 LTS amd64 | |
+| Release Name | Jammy Jellyfish |
+| Release Date | 2022/07/31 |
+| Disk Name | Blackbuntu 22.04.1 LTS amd64 "Jammy Jellyfish" |
+| Kernel | 5.15.0-41-generic |
+
+* * *
+
+#### Previous Versions
+
+| Key | Description |
+| :--- | :--- |
 | Custom Disk | [blackbuntu-20.04.3-lts-amd64.iso](https://download.blackbuntu.org/20.04.3/blackbuntu-20.04.3-lts-amd64.iso) |
 | Size | 5,54 GiB (5 945 434 112 bytes) |
 | Checksum | a8dd5b7dd6e7d865f3e72f3547769738 |
