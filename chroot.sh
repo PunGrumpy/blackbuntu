@@ -425,12 +425,12 @@ rm -f /usr/share/applications/guymager.desktop
 rm -f /usr/share/applications/kismet.desktop
 rm -f /usr/share/applications/lstopo.desktop
 rm -f /usr/share/applications/lynis.desktop
-rm -f /usr/share/applications/maltego_config.desktop
+rm -f /usr/share/applications/maltego_java_config.desktop
 rm -f /usr/share/applications/maltego.desktop
 rm -f /usr/share/applications/ophcrack.desktop
+rm -f /usr/share/applications/org.wireshark.Wireshark.desktop
 rm -f /usr/share/applications/torbrowser-settings.desktop
 rm -f /usr/share/applications/ubiquity.desktop
-rm -f /usr/share/applications/wireshark.desktop
 
 ## Clean `tmp` directory
 ## ---------------------
