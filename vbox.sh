@@ -21,7 +21,7 @@ cd /tmp/
 
 ## Remove `zsys`
 ## -------------
-apt-get -y purge --auto-remove zsys
+apt-get -y purge --auto-remove zsys >/dev/null 2>&1
 
 ## Keep system safe
 ## ----------------
