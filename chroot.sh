@@ -79,7 +79,13 @@ apt-get -y install apt-transport-https apt-utils
 
 ## Install common packages
 ## -----------------------
-apt-get -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre dirmngr dkms doxygen easytag filezilla fuse g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools openvpn pidgin pkg-config proxychains screen screenfetch secure-delete simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
+apt-get -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre dirmngr dkms doxygen easytag filezilla g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools openvpn pidgin pkg-config proxychains screen screenfetch secure-delete simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
+
+## Keep system safe
+## ----------------
+apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
+apt-get -y remove && apt-get -y autoremove
+apt-get -y clean && apt-get -y autoclean
 
 ## Install files roller
 ## --------------------
