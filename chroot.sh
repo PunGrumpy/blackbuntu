@@ -389,11 +389,6 @@ rm -f /usr/share/ubiquity/pixmaps/ubuntu_installed.png
 cp /tmp/blackbuntu/system/usr/share/ubiquity/pixmaps/cd_in_tray.png /usr/share/ubiquity/pixmaps/
 cp /tmp/blackbuntu/system/usr/share/ubiquity/pixmaps/ubuntu_installed.png /usr/share/ubiquity/pixmaps/
 
-## Replace `ubiquity-slideshow`
-## ---------------------------
-rm -rf /usr/share/ubiquity-slideshow
-cp -r /tmp/blackbuntu/system/usr/share/ubiquity-slideshow /usr/share/
-
 ## Configure `plymouth`
 ## --------------------
 rm -f /usr/share/plymouth/ubuntu-logo.png
