@@ -45,10 +45,6 @@ sed -i "s/enabled=1/enabled=0/" /etc/default/apport
 ## --------------------
 apt-get -y purge --auto-remove thunderbird
 
-## Remove `libreoffice`
-## --------------------
-apt-get -y purge --auto-remove libreoffice*
-
 ## Remove all games
 ## ----------------
 apt-get -y purge --auto-remove aisleriot gnome-initial-setup gnome-mahjongg gnome-mines gnome-sudoku hitori
