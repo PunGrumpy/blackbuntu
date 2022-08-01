@@ -53,15 +53,7 @@ sudo apt-get -y install kdenlive
 
 * * *
 
-####7. Install `libreoffice`
-
-```shell
-sudo apt-get -y install libreoffice
-```
-
-* * *
-
-#### 8. Install `holehe`
+#### 7. Install `holehe`
 
 ```shell
 cd /opt/blackbuntu/information-gathering/
@@ -72,7 +64,7 @@ sudo python3 setup.py install
 
 * * *
 
-#### 9. Install `ignorant`
+#### 8. Install `ignorant`
 
 ```shell
 cd /opt/blackbuntu/information-gathering/
@@ -83,7 +75,7 @@ sudo python3 setup.py install
 
 * * *
 
-#### 10. Install `OnionSearch`
+#### 9. Install `OnionSearch`
 
 ```shell
 cd /opt/blackbuntu/information-gathering/
@@ -94,7 +86,7 @@ sudo python3 setup.py install
 
 * * *
 
-#### 11. Install `toutatis`
+#### 10. Install `toutatis`
 
 ```shell
 cd /opt/blackbuntu/information-gathering/
@@ -105,7 +97,7 @@ sudo python3 setup.py install
 
 * * *
 
-#### 12. Install `atom`
+#### 11. Install `atom`
 
 ```shell
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
