@@ -12,7 +12,7 @@ sudo apt-get -y update && sudo apt -y install cubic
 #### 2. Install `virtualbox`
 
 ```shell
-sudo apt-get -y install virtualbox virtualbox-dkms virtualbox-guest-dkms virtualbox-guest-utils
+sudo apt-get -y install virtualbox virtualbox-dkms virtualbox-guest-utils
 ```
 
 * * *
@@ -56,10 +56,7 @@ sudo apt-get -y install kdenlive
 #### 7. Install `holehe`
 
 ```shell
-cd /opt/blackbuntu/information-gathering/
-sudo git clone https://github.com/megadose/holehe holehe
-cd /opt/blackbuntu/information-gathering/holehe/
-sudo python3 setup.py install
+python3 -m pip install holehe
 ```
 
 * * *
@@ -67,10 +64,7 @@ sudo python3 setup.py install
 #### 8. Install `ignorant`
 
 ```shell
-cd /opt/blackbuntu/information-gathering/
-sudo git clone https://github.com/megadose/ignorant ignorant
-cd /opt/blackbuntu/information-gathering/ignorant/
-sudo python3 setup.py install
+python3 -m pip install ignorant
 ```
 
 * * *
@@ -78,10 +72,7 @@ sudo python3 setup.py install
 #### 9. Install `OnionSearch`
 
 ```shell
-cd /opt/blackbuntu/information-gathering/
-sudo git clone https://github.com/megadose/OnionSearch onionsearch
-cd /opt/blackbuntu/information-gathering/onionsearch/
-sudo python3 setup.py install
+python3 -m pip install onionsearch
 ```
 
 * * *
@@ -89,10 +80,7 @@ sudo python3 setup.py install
 #### 10. Install `toutatis`
 
 ```shell
-cd /opt/blackbuntu/information-gathering/
-sudo git clone https://github.com/megadose/toutatis toutatis
-cd /opt/blackbuntu/information-gathering/toutatis/
-sudo python3 setup.py install
+python3 -m pip install toutatis
 ```
 
 * * *

@@ -50,7 +50,7 @@ function showbanner()
 	echo -e "${t_error} | '_ \| |/ _' |/ __| |/ / '_ \| | | | '_ \| __| | | | ${t_reset}"
 	echo -e "${t_error} | |_) | | (_| | (__|   <| |_) | |_| | | | | |_| |_| | ${t_reset}"
 	echo -e "${t_error} |_'__/|_|\__'_|\___|_|\_\_'__/ \__'_|_| |_|\__|\__'_| ${t_reset}"
-	echo -e "${t_error}                                      v20.04 LTS amd64 ${t_reset}"
+	echo -e "${t_error}                                      v22.04 LTS amd64 ${t_reset}"
 	echo
 	echo -e "${t_valid}[i] [Package]: blackbuntu-clean${t_reset}"
 	echo -e "${t_valid}[i] [Website]: https://blackbuntu.org${t_reset}"
@@ -163,9 +163,11 @@ function cleanlaunchers()
 	sudo rm -f /usr/share/applications/ophcrack.desktop
 	sudo rm -f /usr/share/applications/org.kde.kdeconnect.app.desktop
 	sudo rm -f /usr/share/applications/org.kde.kdeconnect.daemon.desktop
+	sudo rm -f /usr/share/applications/org.kde.kdeconnect.handler.desktop
 	sudo rm -f /usr/share/applications/org.kde.kdeconnect.kcm.desktop
 	sudo rm -f /usr/share/applications/org.kde.kdeconnect.nonplasma.desktop
 	sudo rm -f /usr/share/applications/org.kde.kdeconnect_open.desktop
+	sudo rm -f /usr/share/applications/org.kde.kdeconnect-settings.desktop
 	sudo rm -f /usr/share/applications/org.kde.kdeconnect.sms.desktop
 	sudo rm -f /usr/share/applications/org.kde.kdeconnect.smshandler.desktop
 	sudo rm -f /usr/share/applications/org.kde.kdeconnect.telhandler.desktop
@@ -185,16 +187,7 @@ function coresystem()
 
 	## Delete `firefox` logs
 	## ---------------------
-	securedelete /home/$USER/.mozilla/firefox/backup/
-	securedelete /home/$USER/.cache/mozilla/firefox/backup/
-	sudo mkdir -p /home/$USER/.mozilla/firefox/backup/ /home/$USER/.cache/mozilla/firefox/backup/
-	sudo mv /home/$USER/.mozilla/firefox/*.default/*.sqlite  /home/$USER/.mozilla/firefox/backup/ >/dev/null 2>&1
-	sudo mv /home/$USER/.mozilla/firefox/*.default/sessionstore.js /home/$USER/.mozilla/firefox/backup/ >/dev/null 2>&1
-	sudo mv /home/$USER/.cache/mozilla/firefox/*.default/* /home/$USER/.cache/mozilla/firefox/backup/ >/dev/null 2>&1
-	securedelete /home/$USER/.mozilla/firefox/*.default/cookies.sqlite
-	securedelete /home/$USER/.mozilla/firefox/*.default/*.sqlite
-	securedelete /home/$USER/.mozilla/firefox/*default/sessionstore.js
-	securedelete /home/$USER/.cache/mozilla/firefox/*.default/*
+	securedelete /home/$USER/Downloads/firefox.tmp
 	loadstatus "Delete Firefox logs" "title"
 
 	## Delete user cache thumbnails
@@ -215,6 +208,11 @@ function coresystem()
 	securedelete /home/$USER/.ssh/known_hosts
 	securedelete /home/$USER/.ssh/known_hosts.old
 	loadstatus "Delete SSH user keys" "title"
+
+	## Delete `snap` directory
+	## -----------------------
+	securedelete /home/$USER/snap
+	loadstatus "Delete Snap directory" "title"
 
 	## Remove unnecessary documentations
 	## ---------------------------------
