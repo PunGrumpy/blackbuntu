@@ -15,8 +15,8 @@ The current version of Blackbuntu is based on Ubuntu 20.04.3 LTS. More informati
 | Key | Description |
 | :--- | :--- |
 | Custom Disk | [blackbuntu-22.04.1-lts-amd64.iso](https://download.blackbuntu.org/22.04.1/blackbuntu-22.04.1-lts-amd64.iso) |
-| Size | 5,96 GiB (6 399 987 712 bytes) |
-| Checksum | 970ccf83af9bf6fee6bfb81e3922653f |
+| Size | 6,09 GiB (6 535 995 392 bytes) |
+| Checksum | 54722b14352bb2031d6768be93bb3391 |
 | Checksum File | [blackbuntu-22.04.1-lts-amd64.md5](https://download.blackbuntu.org/22.04.1/blackbuntu-22.04.1-lts-amd64.md5) |
 | Version | [22.04.1](https://blackbuntu.org/releases/?ver=22.04.1) |
 | Volume ID | Blackbuntu 22.04.1 LTS amd64 | |
