@@ -303,7 +303,7 @@ chmod +x /opt/blackbuntu/crypto/atomicwallet/atomicwallet.AppImage
 ## Install `electrum-btc`
 ## https://electrum.org
 ## --------------------
-wget --progress=dot -O "/tmp/electrum-btc.AppImage" "https://download.electrum.org/4.2.2/electrum-4.2.2-x86_64.AppImage"
+wget --progress=dot -O "/tmp/electrum-btc.AppImage" "https://download.electrum.org/4.3.1/electrum-4.3.1-x86_64.AppImage"
 mkdir -p /opt/blackbuntu/crypto/electrum-btc
 mv /tmp/electrum-btc.AppImage /opt/blackbuntu/crypto/electrum-btc/
 chmod +x /opt/blackbuntu/crypto/electrum-btc/electrum-btc.AppImage
@@ -311,7 +311,7 @@ chmod +x /opt/blackbuntu/crypto/electrum-btc/electrum-btc.AppImage
 ## Install `electrum-ltc`
 ## https://electrum-ltc.org
 ## ------------------------
-wget --progress=dot -O "/tmp/electrum-ltc.AppImage" "https://electrum-ltc.org/download/electrum-ltc-4.2.2.1-x86_64.AppImage"
+wget --progress=dot -O "/tmp/electrum-ltc.AppImage" "https://electrum-ltc.org/download/electrum-ltc-4.3.1.1-x86_64.AppImage"
 mkdir -p /opt/blackbuntu/crypto/electrum-ltc
 mv /tmp/electrum-ltc.AppImage /opt/blackbuntu/crypto/electrum-ltc/
 chmod +x /opt/blackbuntu/crypto/electrum-ltc/electrum-ltc.AppImage
@@ -325,9 +325,9 @@ dpkg -i /tmp/Maltego.v4.3.0.deb
 ## Install `monero`
 ## https://www.getmonero.org
 ## -------------------------
-wget --progress=dot -O "/tmp/monero-gui-linux-x64-v0.18.0.0.tar.bz2" "https://downloads.getmonero.org/gui/monero-gui-linux-x64-v0.18.0.0.tar.bz2"
-tar -xf /tmp/monero-gui-linux-x64-v0.18.0.0.tar.bz2
-mv /tmp/monero-gui-v0.18.0.0 /opt/blackbuntu/crypto/monero
+wget --progress=dot -O "/tmp/monero-gui-linux-x64-v0.18.1.0.tar.bz2" "https://downloads.getmonero.org/gui/monero-gui-linux-x64-v0.18.1.0.tar.bz2"
+tar -xf /tmp/monero-gui-linux-x64-v0.18.1.0.tar.bz2
+mv /tmp/monero-gui-v0.18.1.0 /opt/blackbuntu/crypto/monero
 chmod +x /opt/blackbuntu/crypto/monero/monero-wallet-gui
 
 ## Install `MyCrypto`
