@@ -10,7 +10,7 @@ Enjoy the simplicity of BlackBuntu’s interface created on the latest Ubuntu ve
 
 #### Image Details
 
-The current version of Blackbuntu is based on Ubuntu 20.04.3 LTS. More information about the current release and download link can be found below.
+The current version of Blackbuntu is based on Ubuntu 22.04.1 LTS. More information about the current release and download link can be found below.
 
 | Key | Description |
 | :--- | :--- |
