@@ -55,7 +55,7 @@ apt-get -y install gnome-shell-extension-manager gnome-shell-extensions gnome-fi
 
 ## Install system libraries
 ## ------------------------
-apt-get -y install libbz2-dev libcppunit-dev libcurl4-openssl-dev libffi-dev libfmt-dev libfuse2 libgdbm-dev libglib2.0-dev libglib2.0-dev-bin libgmp-dev libgspell-1-dev libgtkmm-3.0-dev libgtksourceviewmm-3.0-dev liblog4cpp5-dev libncurses5-dev libnss3-dev liborc-0.4-dev libosmocore-dev libreadline-dev libsodium-dev libspdlog-dev libsqlite3-dev libssl-dev libtool libuchardet-dev libxml2 libxml++2.6-dev libxml2-dev libxslt1-dev zlib1g-dev
+apt-get -y install libbz2-dev libc6-x32 libcppunit-dev libcurl4-openssl-dev libffi-dev libfmt-dev libfuse2 libgdbm-dev libglib2.0-dev libglib2.0-dev-bin libgmp-dev libgspell-1-dev libgtkmm-3.0-dev libgtksourceviewmm-3.0-dev liblog4cpp5-dev libncurses5-dev libnss3-dev liborc-0.4-dev libosmocore-dev libreadline-dev libsodium-dev libspdlog-dev libsqlite3-dev libssl-dev libtool libuchardet-dev libxml2 libxml++2.6-dev libxml2-dev libxslt1-dev zlib1g-dev
 
 ## Install `python`
 ## ----------------
@@ -75,13 +75,24 @@ apt-get -y install apt-transport-https apt-utils
 
 ## Install common packages
 ## -----------------------
-apt-get -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre dirmngr dkms doxygen easytag filezilla fuse3 g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools openvpn pidgin pkg-config proxychains screen screenfetch secure-delete shutter simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
+apt-get -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre default-jdk dirmngr dkms doxygen easytag filezilla fuse3 g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools openvpn pidgin pkg-config proxychains screen screenfetch secure-delete shutter simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
 
 ## Keep system safe
 ## ----------------
 apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
 apt-get -y remove && apt-get -y autoremove
 apt-get -y clean && apt-get -y autoclean
+
+## Install Java SE Development Kit
+## -------------------------------
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
+dpkg -i jdk-17_linux-x64_bin.deb
+dpkg -i jdk-19_linux-x64_bin.deb
+
+## Install Latest JDK Packages
+## ---------------------------
+apt-get -y install openjdk-17-jdk openjdk-17-jre openjdk-19-jdk openjdk-19-jre
 
 ## Install files roller
 ## --------------------

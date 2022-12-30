@@ -53,42 +53,10 @@ sudo apt-get -y install kdenlive
 
 * * *
 
-#### 7. Install `holehe`
+#### 7. Install `sublime-text`
 
 ```shell
-python3 -m pip install holehe
-```
-
-* * *
-
-#### 8. Install `ignorant`
-
-```shell
-python3 -m pip install ignorant
-```
-
-* * *
-
-#### 9. Install `OnionSearch`
-
-```shell
-python3 -m pip install onionsearch
-```
-
-* * *
-
-#### 10. Install `toutatis`
-
-```shell
-python3 -m pip install toutatis
-```
-
-* * *
-
-#### 11. Install `atom`
-
-```shell
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-sudo apt -y update && sudo apt -y install atom
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt -y update && sudo apt -y install sublime-text 
 ```
