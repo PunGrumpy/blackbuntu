@@ -24,12 +24,14 @@ sudo pro config set apt_news=true
 
 #### 3. Get a 404 error when trying to install or update Tor Browser
 
+First we will remove all files of the previous installation or download attempt.
+
 ```shell
 rm -rf /home/$USER/.cache/torbrowser
 rm -rf /home/$USER/.local/share/torbrowser
 ```
 
-Edit `/usr/lib/python3/dist-packages/torbrowser_launcher/common.py` line 171
+Edit `/usr/lib/python3/dist-packages/torbrowser_launcher/common.py` line 171.
 
 To revert it to initial configuration
 
@@ -38,7 +40,7 @@ To revert it to initial configuration
 language = "ALL"
 ```
 
-Edit `/usr/lib/python3/dist-packages/torbrowser_launcher/common.py` line 223
+Edit `/usr/lib/python3/dist-packages/torbrowser_launcher/common.py` line 223.
 
 ```
 "tbb": {
