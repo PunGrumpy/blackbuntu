@@ -19,3 +19,5 @@ To revert it to initial configuration
 ```shell
 sudo pro config set apt_news=true
 ```
+
+* * *
