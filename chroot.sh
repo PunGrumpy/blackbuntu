@@ -60,6 +60,7 @@ apt-get -y install libbz2-dev libc6-x32 libcppunit-dev libcurl4-openssl-dev libf
 ## Install `python`
 ## ----------------
 apt-get -y install python3-flask python3-future python3-geoip python3-httplib2 python3-numpy python3-paramiko python3-pip python3-psutil python3-pycurl python3-pyqt5 python3-requests python3-scapy python3-scipy python3-setuptools python3-urllib3 python3-virtualenv python3-wheel
+ln -s /usr/bin/python3 /usr/bin/python
 
 ## Install `Qt5`
 ## -------------
