@@ -4,7 +4,7 @@
 
 ```shell
 sudo apt-add-repository -y ppa:cubic-wizard/release
-sudo apt -y update && sudo apt -y install cubic
+sudo apt-get -y update && sudo apt-get -y install cubic
 ```
 
 * * *
@@ -12,7 +12,7 @@ sudo apt -y update && sudo apt -y install cubic
 #### 2. Install `virtualbox`
 
 ```shell
-sudo apt -y install virtualbox virtualbox-dkms virtualbox-guest-utils
+sudo apt-get -y install virtualbox virtualbox-dkms virtualbox-guest-utils
 ```
 
 * * *
@@ -32,7 +32,7 @@ msfconsole
 #### 4. Install `gimp`
 
 ```shell
-sudo apt -y install gimp gimp-data gimp-data-extras gimp-plugin-registry gimp-texturize
+sudo apt-get -y install gimp gimp-data gimp-data-extras gimp-plugin-registry gimp-texturize
 ```
 
 * * *
@@ -40,7 +40,7 @@ sudo apt -y install gimp gimp-data gimp-data-extras gimp-plugin-registry gimp-te
 #### 5. Install `inkscape`
 
 ```shell
-sudo apt -y install inkscape
+sudo apt-get -y install inkscape
 ```
 
 * * *
@@ -48,7 +48,7 @@ sudo apt -y install inkscape
 #### 6. Install `kdenlive`
 
 ```shell
-sudo apt -y install kdenlive
+sudo apt-get -y install kdenlive
 ```
 
 * * *
@@ -58,5 +58,5 @@ sudo apt -y install kdenlive
 ```shell
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt -y update && sudo apt -y install sublime-text 
+sudo apt-get -y update && sudo apt-get -y install sublime-text 
 ```
