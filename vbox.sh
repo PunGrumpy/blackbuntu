@@ -21,21 +21,21 @@ cd /tmp/
 
 ## Remove `zsys`
 ## -------------
-apt-get -y purge --auto-remove zsys >/dev/null 2>&1
+apt -y purge --auto-remove zsys >/dev/null 2>&1
 
 ## Keep system safe
 ## ----------------
-apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
-apt-get -y remove && apt-get -y autoremove
-apt-get -y clean && apt-get -y autoclean
+apt -y update && apt -y upgrade && apt -y dist-upgrade
+apt -y remove && apt -y autoremove
+apt -y clean && apt -y autoclean
 
 ## Install `kernel`
 ## ----------------
-apt-get -y install linux-generic
+apt -y install linux-generic
 
 ## Install `dejavu` font
 ## ---------------------
-apt-get -y install fonts-dejavu
+apt -y install fonts-dejavu
 
 ## Disable error reporting
 ## -----------------------
@@ -43,53 +43,71 @@ sed -i "s/enabled=1/enabled=0/" /etc/default/apport
 
 ## Remove `thunderbird`
 ## --------------------
-apt-get -y purge --auto-remove thunderbird
+apt -y purge --auto-remove thunderbird
 
 ## Remove all games
 ## ----------------
-apt-get -y purge --auto-remove aisleriot gnome-initial-setup gnome-mahjongg gnome-mines gnome-sudoku hitori
+apt -y purge --auto-remove aisleriot gnome-initial-setup gnome-mahjongg gnome-mines gnome-sudoku hitori
 
 ## Install `gnome` extras
 ## ----------------------
-apt-get -y install gnome-shell-extension-manager gnome-shell-extensions gnome-firmware gnome-tweaks
+apt -y install gnome-shell-extension-manager gnome-shell-extensions gnome-firmware gnome-tweaks
 
 ## Install system libraries
 ## ------------------------
-apt-get -y install libbz2-dev libcppunit-dev libcurl4-openssl-dev libffi-dev libfmt-dev libfuse2 libgdbm-dev libglib2.0-dev libglib2.0-dev-bin libgmp-dev libgspell-1-dev libgtkmm-3.0-dev libgtksourceviewmm-3.0-dev liblog4cpp5-dev libncurses5-dev libnss3-dev liborc-0.4-dev libosmocore-dev libreadline-dev libsodium-dev libspdlog-dev libsqlite3-dev libssl-dev libtool libuchardet-dev libxml2 libxml++2.6-dev libxml2-dev libxslt1-dev zlib1g-dev
+apt -y install libbz2-dev libc6-x32 libcppunit-dev libcurl4-openssl-dev libffi-dev libfmt-dev libfuse2 libgdbm-dev libglib2.0-dev libglib2.0-dev-bin libgmp-dev libgspell-1-dev libgtkmm-3.0-dev libgtksourceviewmm-3.0-dev liblog4cpp5-dev libncurses5-dev libnss3-dev liborc-0.4-dev libosmocore-dev libreadline-dev libsodium-dev libspdlog-dev libsqlite3-dev libssl-dev libtool libuchardet-dev libxml2 libxml++2.6-dev libxml2-dev libxslt1-dev zlib1g-dev
 
 ## Install `python`
 ## ----------------
-apt-get -y install python3-flask python3-future python3-geoip python3-httplib2 python3-numpy python3-paramiko python3-pip python3-psutil python3-pycurl python3-pyqt5 python3-requests python3-scapy python3-scipy python3-setuptools python3-urllib3 python3-virtualenv python3-wheel
+apt -y install python3-flask python3-future python3-geoip python3-httplib2 python3-numpy python3-paramiko python3-pip python3-psutil python3-pycurl python3-pyqt5 python3-requests python3-scapy python3-scipy python3-setuptools python3-urllib3 python3-virtualenv python3-wheel
+ln -s /usr/bin/python3 /usr/bin/python
 
 ## Install `Qt5`
 ## -------------
-apt-get -y install pyqt5-dev-tools qttools5-dev-tools qt5-doc qt5-doc-html qtbase5-examples qtcreator
+apt -y install pyqt5-dev-tools qttools5-dev-tools qt5-doc qt5-doc-html qtbase5-examples qtcreator
 
 ## Install `ruby`
 ## -------------
-apt-get -y install ruby ruby-dev
+apt -y install ruby ruby-dev
 
 ## Install `apt`
 ## -------------
-apt-get -y install apt-transport-https apt-utils
+apt -y install apt-transport-https apt-utils
 
 ## Install common packages
 ## -----------------------
-apt-get -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre dirmngr dkms doxygen easytag filezilla fuse3 g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools openvpn pidgin pkg-config proxychains screen screenfetch secure-delete shutter simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
-
-## Install files roller
-## --------------------
-apt-get -y install p7zip-full p7zip-rar rar unrar
-
-## Install `evolution`
-## -------------------
-apt-get -y install evolution evolution-ews
+apt -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre default-jdk dirmngr dkms doxygen easytag filezilla fuse3 g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools openvpn pidgin pkg-config proxychains screen screenfetch secure-delete shutter simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
 
 ## Keep system safe
 ## ----------------
-apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
-apt-get -y remove && apt-get -y autoremove
-apt-get -y clean && apt-get -y autoclean
+apt -y update && apt -y upgrade && apt -y dist-upgrade
+apt -y remove && apt -y autoremove
+apt -y clean && apt -y autoclean
+
+## Install Java SE Development Kit
+## -------------------------------
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
+wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
+dpkg -i jdk-17_linux-x64_bin.deb
+dpkg -i jdk-19_linux-x64_bin.deb
+
+## Install Latest JDK Packages
+## ---------------------------
+apt -y install openjdk-17-jdk openjdk-17-jre openjdk-19-jdk openjdk-19-jre
+
+## Install files roller
+## --------------------
+apt -y install p7zip-full p7zip-rar rar unrar
+
+## Install `evolution`
+## -------------------
+apt -y install evolution evolution-ews
+
+## Keep system safe
+## ----------------
+apt -y update && apt -y upgrade && apt -y dist-upgrade
+apt -y remove && apt -y autoremove
+apt -y clean && apt -y autoclean
 
 ## Clone `system` repository
 ## -------------------------
@@ -120,7 +138,7 @@ mkdir -p /opt/blackbuntu/{cracking,crypto,exploitation,forensics,hardening,infor
 
 ## Install cracking tools
 ## -----------------------
-apt-get -y install brutespray cewl cmospwd crunch hashcat hydra john medusa ncrack ophcrack patator
+apt -y install brutespray cewl cmospwd crunch hashcat hydra john medusa ncrack ophcrack patator
 packages="/tmp/packages/cracking"
 for deb in "$packages"/*;
 do
@@ -132,7 +150,7 @@ done
 
 ## Install exploitation tools
 ## --------------------------
-apt-get -y install websploit yersinia
+apt -y install websploit yersinia
 packages="/tmp/packages/exploitation"
 for deb in "$packages"/*;
 do
@@ -144,7 +162,7 @@ done
 
 ## Install forensics tools
 ## -----------------------
-apt-get -y install chntpw dc3dd extundelete foremost galleta guymager p0f
+apt -y install chntpw dc3dd extundelete foremost galleta guymager p0f
 packages="/tmp/packages/forensics"
 for deb in "$packages"/*;
 do
@@ -156,7 +174,7 @@ done
 
 ## Install hardening tools
 ## -----------------------
-apt-get -y install apktool arduino lynis
+apt -y install apktool arduino lynis
 packages="/tmp/packages/hardening"
 for deb in "$packages"/*;
 do
@@ -168,7 +186,7 @@ done
 
 ## Install information gathering tools
 ## -----------------------------------
-apt-get -y install arp-scan braa dmitry dnsenum dnsmap dnsrecon dnstracer dnswalk masscan nikto nmap parsero recon-ng smbmap sntop sslsplit traceroute whois
+apt -y install arp-scan braa dmitry dnsenum dnsmap dnsrecon dnstracer dnswalk masscan nikto nmap parsero recon-ng smbmap sntop sslsplit traceroute whois
 packages="/tmp/packages/information-gathering"
 for deb in "$packages"/*;
 do
@@ -180,7 +198,7 @@ done
 
 ## Install networking tools
 ## -----------------------
-apt-get -y install cryptcat dns2tcp httptunnel netcat
+apt -y install cryptcat dns2tcp httptunnel netcat
 packages="/tmp/packages/networking"
 for deb in "$packages"/*;
 do
@@ -192,7 +210,7 @@ done
 
 ## Install reverse engineering tools
 ## ---------------------------------
-apt-get -y install edb-debugger valgrind yara
+apt -y install edb-debugger valgrind yara
 packages="/tmp/packages/reverse-engineering"
 for deb in "$packages"/*;
 do
@@ -204,7 +222,7 @@ done
 
 ## Install sniffing & spoofing tools
 ## ---------------------------------
-apt-get -y install ettercap-common ettercap-graphical wireshark
+apt -y install ettercap-common ettercap-graphical wireshark
 packages="/tmp/packages/sniffing-spoofing"
 for deb in "$packages"/*;
 do
@@ -216,7 +234,7 @@ done
 
 ## Install stress testing tools
 ## ----------------------------
-apt-get -y install dhcpig hping3 mdk3 slowhttptest t50 termineter
+apt -y install dhcpig hping3 mdk3 slowhttptest t50 termineter
 packages="/tmp/packages/stress-testing"
 for deb in "$packages"/*;
 do
@@ -228,7 +246,7 @@ done
 
 ## Install utilities tools
 ## -----------------------
-apt-get -y install polenum
+apt -y install polenum
 packages="/tmp/packages/utilities"
 for deb in "$packages"/*;
 do
@@ -240,7 +258,7 @@ done
 
 ## Install vulnerability analysis tools
 ## ------------------------------------
-apt-get -y install doona sqlmap
+apt -y install doona sqlmap
 packages="/tmp/packages/vulnerability-analysis"
 for deb in "$packages"/*;
 do
@@ -252,7 +270,7 @@ done
 
 ## Install web applications tools
 ## ------------------------------
-apt-get -y install dirb gobuster wfuzz whatweb
+apt -y install dirb gobuster wfuzz whatweb
 packages="/tmp/packages/web-applications"
 for deb in "$packages"/*;
 do
@@ -264,7 +282,7 @@ done
 
 ## Install wireless tools
 ## ----------------------
-apt-get -y install aircrack-ng cowpatty mfcuk mfoc multimon-ng pixiewps reaver wifite
+apt -y install aircrack-ng cowpatty mfcuk mfoc multimon-ng pixiewps reaver wifite
 packages="/tmp/packages/wireless"
 for deb in "$packages"/*;
 do
@@ -293,7 +311,6 @@ mkdir -p /opt/blackbuntu/crypto/atomicwallet
 mv /tmp/atomicwallet.AppImage /opt/blackbuntu/crypto/atomicwallet/
 chmod +x /opt/blackbuntu/crypto/atomicwallet/atomicwallet.AppImage
 
-
 ## Install `electrum-btc`
 ## https://electrum.org
 ## --------------------
@@ -305,7 +322,7 @@ chmod +x /opt/blackbuntu/crypto/electrum-btc/electrum-btc.AppImage
 ## Install `electrum-ltc`
 ## https://electrum-ltc.org
 ## ------------------------
-wget --progress=dot -O "/tmp/electrum-ltc.AppImage" "https://electrum-ltc.org/download/electrum-ltc-4.2.2.1-x86_64.AppImage"
+wget --progress=dot -O "/tmp/electrum-ltc.AppImage" "https://electrum-ltc.org/download/electrum-ltc-4.3.1.1-x86_64.AppImage"
 mkdir -p /opt/blackbuntu/crypto/electrum-ltc
 mv /tmp/electrum-ltc.AppImage /opt/blackbuntu/crypto/electrum-ltc/
 chmod +x /opt/blackbuntu/crypto/electrum-ltc/electrum-ltc.AppImage
@@ -343,9 +360,9 @@ gem install wpscan
 
 ## Keep system safe
 ## ----------------
-apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
-apt-get -y remove && apt-get -y autoremove
-apt-get -y clean && apt-get -y autoclean
+apt -y update && apt -y upgrade && apt -y dist-upgrade
+apt -y remove && apt -y autoremove
+apt -y clean && apt -y autoclean
 
 ## Setup user `bashrc`
 ## -------------------
