@@ -200,6 +200,8 @@ function coresystem()
 	## Delete files history
 	## --------------------
 	securedelete /home/$USER/.local/share/recently-used.xbel
+	securedelete /home/$USER/.config/sublime-text/Local/Session.sublime_session
+	securedelete /home/$USER/.msf4/history
 	loadstatus "Delete files history" "title"
 
 	## Delete user `ssh` keys
