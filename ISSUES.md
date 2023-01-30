@@ -92,4 +92,5 @@ wget -O burpsuite.jar https://portswigger.net/burp/releases/download?product=com
 sudo rm -f /opt/blackbuntu/exploitation/burpsuite/burpsuite.jar
 sudo mv burpsuite.jar /opt/blackbuntu/exploitation/burpsuite/
 sudo chmod +x /opt/blackbuntu/exploitation/burpsuite/burpsuite.jar
+cd /
 ```
