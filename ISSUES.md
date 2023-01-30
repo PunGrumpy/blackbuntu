@@ -74,7 +74,7 @@ Edit `/usr/lib/python3/dist-packages/torbrowser_launcher/common.py` line 223.
 
 ```shell
 sudo apt -y install apturl gnome-remote-desktop nautilus-share python3-software-properties software-properties-common software-properties-gtk ubuntu-advantage-tools update-notifier update-notifier-common
-``
+```
 
 * * *
 
