@@ -94,3 +94,14 @@ sudo mv burpsuite.jar /opt/blackbuntu/exploitation/burpsuite/
 sudo chmod +x /opt/blackbuntu/exploitation/burpsuite/burpsuite.jar
 cd /
 ```
+
+* * *
+
+#### 6. Python 3 PIP Warning 'Consider adding this directory to PATH'
+
+```shell
+echo "" >> /home/$USER/.bashrc
+echo "# Fix PIP Alias" >> /home/$USER/.bashrc
+echo "# =============" >> /home/$USER/.bashrc
+echo "export PATH=$PATH:/home/$USER/.local/bin" >> /home/$USER/.bashrc
+```
