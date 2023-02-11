@@ -97,11 +97,55 @@ cd /
 
 * * *
 
-#### 6. Python 3 PIP Warning 'Consider adding this directory to PATH'
+#### 6. Update Electrum BTC AppImage
 
 ```shell
-echo "" >> /home/$USER/.bashrc
-echo "# Fix PIP Alias" >> /home/$USER/.bashrc
-echo "# =============" >> /home/$USER/.bashrc
-echo "export PATH=$PATH:/home/$USER/.local/bin" >> /home/$USER/.bashrc
+cd /tmp/
+wget -O "electrum-btc.AppImage" "https://download.electrum.org/4.3.4/electrum-4.3.4-x86_64.AppImage"
+sudo rm -f /opt/blackbuntu/crypto/electrum-btc/electrum-btc.AppImage
+sudo mv electrum-btc.AppImage /opt/blackbuntu/crypto/electrum-btc/
+sudo chmod +x /opt/blackbuntu/crypto/electrum-btc/electrum-btc.AppImage
+cd /
+```
+
+* * *
+
+#### 7. Update Electrum LTC AppImage
+
+```shell
+cd /tmp/
+wget -O "electrum-ltc.AppImage" "https://electrum-ltc.org/download/electrum-ltc-4.2.2.1-x86_64.AppImage"
+sudo rm -f /opt/blackbuntu/crypto/electrum-ltc/electrum-ltc.AppImage
+sudo mv electrum-ltc.AppImage /opt/blackbuntu/crypto/electrum-ltc/
+sudo chmod +x /opt/blackbuntu/crypto/electrum-ltc/electrum-ltc.AppImage
+cd /
+```
+
+* * *
+
+#### 8. Update Monero GUI Wallet
+
+```shell
+cd /tmp/
+wget -O "monero.tar.bz2" "https://downloads.getmonero.org/gui/linux64"
+tar -xf monero.tar.bz2
+sudo rm -rf /opt/blackbuntu/crypto/monero/
+sudo mv monero-gui-* /opt/blackbuntu/crypto/monero/
+cd /
+```
+
+* * *
+
+#### 9. Python 3 PIP Warning 'Consider adding this directory to PATH'
+
+```shell
+nano /home/$USER/.bashrc
+```
+
+Once the editor is open, add the following at the bottom and save it. You can directly press `Ctrl+End` to reach the end of the file.
+
+´´´
+# Fix PIP Alias
+# =============
+export PATH=$PATH:/home/$USER/.local/bin
 ```
