@@ -88,7 +88,7 @@ wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
 sudo dpkg -i jdk-17_linux-x64_bin.deb
 sudo dpkg -i jdk-19_linux-x64_bin.deb
 sudo apt -y install openjdk-17-jdk openjdk-17-jre openjdk-19-jdk openjdk-19-jre
-wget -O burpsuite.jar https://portswigger.net/burp/releases/download?product=community&type=Jar
+wget -O "burpsuite.jar" "https://portswigger.net/burp/releases/download?product=community&type=Jar"
 sudo rm -f /opt/blackbuntu/exploitation/burpsuite/burpsuite.jar
 sudo mv burpsuite.jar /opt/blackbuntu/exploitation/burpsuite/
 sudo chmod +x /opt/blackbuntu/exploitation/burpsuite/burpsuite.jar
