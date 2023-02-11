@@ -144,7 +144,7 @@ nano /home/$USER/.bashrc
 
 Once the editor is open, add the following at the bottom and save it. You can directly press `Ctrl+End` to reach the end of the file.
 
-´´´
+```
 # Fix PIP Alias
 # =============
 export PATH=$PATH:/home/$USER/.local/bin
