@@ -83,8 +83,8 @@ sudo apt-get -y install apturl gnome-remote-desktop nautilus-share python3-softw
 ```shell
 sudo apt-get -y install libc6-x32
 cd /tmp/
-wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
-wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
+wget -O "jdk-17_linux-x64_bin.deb" "https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb"
+wget -O "jdk-19_linux-x64_bin.deb" "https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb"
 sudo dpkg -i jdk-17_linux-x64_bin.deb
 sudo dpkg -i jdk-19_linux-x64_bin.deb
 sudo apt-get -y install openjdk-17-jdk openjdk-17-jre openjdk-19-jdk openjdk-19-jre

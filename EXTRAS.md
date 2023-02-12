@@ -71,11 +71,3 @@ cd /
 ```shell
 python3 -m pip install pyside2
 ```
-
-* * *
-
-#### 9. Install `pyqt5`
-
-```shell
-python3 -m pip install pyqt5
-```
