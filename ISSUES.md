@@ -73,7 +73,7 @@ Edit `/usr/lib/python3/dist-packages/torbrowser_launcher/common.py` line 223.
 #### 4. Lost 'Softwares and Updates' after system upgrade
 
 ```shell
-sudo apt -y install apturl gnome-remote-desktop nautilus-share python3-software-properties software-properties-common software-properties-gtk ubuntu-advantage-tools update-notifier update-notifier-common
+sudo apt-get -y install apturl gnome-remote-desktop nautilus-share python3-software-properties software-properties-common software-properties-gtk ubuntu-advantage-tools update-notifier update-notifier-common
 ```
 
 * * *
@@ -81,13 +81,13 @@ sudo apt -y install apturl gnome-remote-desktop nautilus-share python3-software-
 #### 5. Update Burpsuite to the latest version
 
 ```shell
-sudo apt -y install libc6-x32
+sudo apt-get -y install libc6-x32
 cd /tmp/
 wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.deb
 wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.deb
 sudo dpkg -i jdk-17_linux-x64_bin.deb
 sudo dpkg -i jdk-19_linux-x64_bin.deb
-sudo apt -y install openjdk-17-jdk openjdk-17-jre openjdk-19-jdk openjdk-19-jre
+sudo apt-get -y install openjdk-17-jdk openjdk-17-jre openjdk-19-jdk openjdk-19-jre
 wget -O "burpsuite.jar" "https://portswigger.net/burp/releases/download?product=community&type=Jar"
 sudo rm -f /opt/blackbuntu/exploitation/burpsuite/burpsuite.jar
 sudo mv burpsuite.jar /opt/blackbuntu/exploitation/burpsuite/
