@@ -115,3 +115,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# PIP Export Path
+# ===============
+export PATH=$PATH:/home/$USER/.local/bin

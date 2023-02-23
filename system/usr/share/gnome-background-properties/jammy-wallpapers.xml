@@ -38,11 +38,11 @@
         <shade_type>solid</shade_type>
     </wallpaper>
     <wallpaper>
-        <name>RedTeam</name>
-        <name xml:lang="de">RedTeam</name>
-        <name xml:lang="en_GB">RedTeam</name>
-        <name xml:lang="fr">RedTeam</name>
-        <name xml:lang="hr">RedTeam</name>
+        <name>Minimalism</name>
+        <name xml:lang="de">Minimalism</name>
+        <name xml:lang="en_GB">Minimalism</name>
+        <name xml:lang="fr">Minimalism</name>
+        <name xml:lang="hr">Minimalism</name>
         <filename>/usr/share/backgrounds/blackbuntu-minimalism-2560x1440.jpg</filename>
         <options>zoom</options>
         <pcolor>#333333</pcolor>
