@@ -1,6 +1,6 @@
 # Blackbuntu
 
-Official repository of the Blackbuntu pentesting distribution. Fast and full of new features, BlackBuntu Linux is dedicated for the Ubuntu Lovers with the aim to promote the culture of pentest and security IT environment. Let's cut the bullshit, this distribution is a GNU/Linux distribution based on Ubuntu and designed with Pentest, Security and Development in mind for the best user experiences.
+Official repository of the [Blackbuntu](https://blackbuntu.org) pentesting distribution. Fast and full of new features, BlackBuntu Linux is dedicated for the Ubuntu Lovers with the aim to promote the culture of pentest and security IT environment. Let's cut the bullshit, this distribution is a GNU/Linux distribution based on Ubuntu and designed with Pentest, Security and Development in mind for the best user experiences.
 
 Designed to be fast, easy to use and provide a minimal yet complete desktop environment, thanks to its own software repositories that are constantly updated to the latest stable version of the most popular and best known ethical hacking tools. Every package currently present in BlackBuntu project is tested and up to date. If you don't find a specific tools that you need in this list please feel free to contact us. We are fast by packaging and releasing new tools on daily basis.
 
@@ -66,7 +66,7 @@ The installation of **Blackbuntu** as primary operating system is recommended fo
 
 #### Tools
 
-Currently Blackbuntu includes [209 pre-installed libraries and tools](https://github.com/neoslab/blackbuntu/blob/main/TOOLS.md) dedicated to ethical hacking, pentesting and cybersecurity.
+Currently Blackbuntu includes [800 pre-installed libraries and tools. ](https://github.com/neoslab/blackbuntu/blob/main/TOOLS.md) dedicated to ethical hacking, pentesting and cybersecurity.
 
 * * *
 
