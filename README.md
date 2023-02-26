@@ -14,10 +14,10 @@ The current version of Blackbuntu is based on Ubuntu 22.04.1 LTS. More informati
 
 | Key | Description |
 | :--- | :--- |
-| Custom Disk | [blackbuntu-22.04.1-lts-amd64.iso](https://blackbuntu.org/wp-content/uploads/iso/blackbuntu-22.04.1-lts-amd64.iso) |
-| Size | 6,09 GiB (6 535 995 392 bytes) |
+| Custom Disk | [blackbuntu-22.04.1-lts-amd64.iso](https://blackbuntu.org/download/?action=download&uuid=00e984d7-124d-4da5-8e78-58fda02e542b) |
+| Size | 6,09 GiB (6 535 995 392 bytes) |
 | Checksum | 54722b14352bb2031d6768be93bb3391 |
-| Checksum File | [blackbuntu-22.04.1-lts-amd64.md5](https://blackbuntu.org/wp-content/uploads/iso/blackbuntu-22.04.1-lts-amd64.md5) |
+| Checksum File | [blackbuntu-22.04.1-lts-amd64.md5](https://download.blackbuntu.org/22.04.1/blackbuntu-22.04.1-lts-amd64.md5) |
 | Version | 22.04.1 |
 | Volume ID | Blackbuntu 22.04.1 LTS amd64 | |
 | Release Name | Jammy Jellyfish |
@@ -32,10 +32,10 @@ The current version of Blackbuntu is based on Ubuntu 22.04.1 LTS. More informati
 
 | Key | Description |
 | :--- | :--- |
-| Custom Disk | [blackbuntu-20.04.3-lts-amd64.iso](https://blackbuntu.org/wp-content/uploads/iso/blackbuntu-20.04.3-lts-amd64.iso) |
-| Size | 5,54 GiB (5 945 434 112 bytes) |
+| Custom Disk | [blackbuntu-20.04.3-lts-amd64.iso](https://blackbuntu.org/download/?action=download&uuid=8577641c-7aec-4199-9d63-19d13eae1fc8) |
+| Size | 5,54 GiB (5 945 434 112 bytes) |
 | Checksum | a8dd5b7dd6e7d865f3e72f3547769738 |
-| Checksum File | [blackbuntu-20.04.3-lts-amd64.md5](https://blackbuntu.org/wp-content/uploads/iso/blackbuntu-20.04.3-lts-amd64.md5) |
+| Checksum File | [blackbuntu-20.04.3-lts-amd64.md5](https://download.blackbuntu.org/20.04.3/blackbuntu-20.04.3-lts-amd64.md5) |
 | Version | 20.04.3 |
 | Volume ID | Blackbuntu 20.04.3 LTS amd64 | |
 | Release Name | Focal Fossa |
@@ -46,10 +46,10 @@ The current version of Blackbuntu is based on Ubuntu 22.04.1 LTS. More informati
 
 | Key | Description |
 | :--- | :--- |
-| Custom Disk | [blackbuntu-18.04.3-lts-amd64.iso](https://blackbuntu.org/wp-content/uploads/iso/blackbuntu-18.04.3-lts-amd64.iso) |
-| Size | 4,51 GB (4 465 778 688 bytes) |
+| Custom Disk | [blackbuntu-18.04.3-lts-amd64.iso](https://blackbuntu.org/download/?action=download&uuid=979c8f8d-7ecf-434f-908f-8ca82d70d542) |
+| Size | 4,51 GB (4 465 778 688 bytes) |
 | Checksum | b95f6c4c68b893825bbf258cef4fff73 |
-| Checksum File | [blackbuntu-18.04.3-lts-amd64.md5](https://blackbuntu.org/wp-content/uploads/iso/blackbuntu-18.04.3-lts-amd64.md5) |
+| Checksum File | [blackbuntu-18.04.3-lts-amd64.md5](https://download.blackbuntu.org/18.04.3/blackbuntu-18.04.3-lts-amd64.md5) |
 | Version | 18.04.3 |
 | Volume ID | Blackbuntu 18.04.3 LTS amd64 | |
 | Release Name | Bionic Beaver |
