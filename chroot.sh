@@ -76,7 +76,7 @@ apt -y install apt-transport-https apt-utils
 
 ## Install common packages
 ## -----------------------
-apt -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre default-jdk dirmngr dkms doxygen easytag filezilla fuse3 g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools ninja-build openvpn pidgin pkg-config proxychains screen screenfetch secure-delete shutter simplescreenrecorder software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
+apt -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre default-jdk dirmngr dkms doxygen easytag filezilla fuse3 g++ gcc gconf2 ghex git gnuradio gnuradio-dev gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools ninja-build openvpn pidgin pkg-config proxychains screen screenfetch secure-delete shutter simplescreenrecorder socat software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
 
 ## Keep system safe
 ## ----------------
