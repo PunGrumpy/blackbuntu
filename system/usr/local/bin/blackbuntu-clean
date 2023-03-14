@@ -263,6 +263,13 @@ function coresystem()
 		loadstatus "System log /var/log/$item file purged" "title"
 	done
 
+	## Purge Trash
+	## -----------
+	securedelete /home/$USER/.local/share/Trash/expunged/*
+	securedelete /home/$USER/.local/share/Trash/files/*
+	securedelete /home/$USER/.local/share/Trash/info/*
+	loadstatus "Purge Trash folder" "title"
+	
 	## Terminate
 	## ---------
 	loadstatus "Process completed" "valid"
