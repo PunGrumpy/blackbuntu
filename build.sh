@@ -81,7 +81,7 @@ function buildselect()
     echo -e "1. Server Edition"
     echo -e "2. Full Edition"
     echo -e "3. Light Edition"
-    echo -e "4. Quit"
+    echo -e "4. Quit\n"
 
     read -p "Choose the BlackBuntu version to build: " version
     case $version in
