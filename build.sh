@@ -355,6 +355,101 @@ function installwireless()
 	apt-get -y install blueranger fluxion wifi-honey wps-breaker
 }
 
+## Clone `system` repository
+## -------------------------
+function systemclone()
+{
+	cd /tmp/
+	git clone https://github.com/neoslab/blackbuntu
+	cd /root/
+}
+
+## Configure system
+## ----------------
+function systemconfig()
+{
+	## Setup user `bashrc`
+	## -------------------
+	rm -f /etc/skel/.bashrc
+	cp /tmp/blackbuntu/system/etc/skel/bashrc /etc/skel/.bashrc
+
+	## Setup root `bashrc`
+	## -------------------
+	rm -f /root/.bashrc
+	cp /tmp/blackbuntu/system/root/bashrc /root/.bashrc
+
+	## Replace `dconf`
+	## --------------
+	mkdir -p /etc/skel/.config
+	rm -rf /etc/skel/.config/dconf
+	cp -r /tmp/blackbuntu/system/etc/skel/config/dconf /etc/skel/.config/
+
+	## Configure backgrounds
+	## ---------------------
+	rm -rf /usr/share/backgrounds/*
+	cp /tmp/blackbuntu/system/usr/share/backgrounds/* /usr/share/backgrounds/
+	rm -f /usr/share/gnome-background-properties/jammy-wallpapers.xml
+	rm -f /usr/share/gnome-background-properties/ubuntu-wallpapers.xml
+	cp /tmp/blackbuntu/system/usr/share/gnome-background-properties/* /usr/share/gnome-background-properties/
+
+	## Configure utilities
+	## -------------------
+	cp /tmp/blackbuntu/system/usr/local/bin/* /usr/local/bin/
+	chmod +x /usr/local/bin/blackbuntu-*
+
+	## Update `ubiquity`
+	## -----------------
+	rm -f /usr/share/ubiquity/pixmaps/cd_in_tray.png
+	rm -f /usr/share/ubiquity/pixmaps/ubuntu_installed.png
+	cp /tmp/blackbuntu/system/usr/share/ubiquity/pixmaps/cd_in_tray.png /usr/share/ubiquity/pixmaps/
+	cp /tmp/blackbuntu/system/usr/share/ubiquity/pixmaps/ubuntu_installed.png /usr/share/ubiquity/pixmaps/
+
+	## Replace `ubiquity-slideshow`
+	## ----------------------------
+	rm -rf /usr/share/ubiquity-slideshow
+	cp -r /tmp/blackbuntu/system/usr/share/ubiquity-slideshow /usr/share/
+
+	## Configure `plymouth`
+	## --------------------
+	rm -f /usr/share/plymouth/ubuntu-logo.png
+	cp /tmp/blackbuntu/system/usr/share/plymouth/ubuntu-logo.png /usr/share/plymouth/
+	rm -f /usr/share/plymouth/themes/spinner/watermark.png
+	cp /tmp/blackbuntu/system/usr/share/plymouth/themes/spinner/watermark.png /usr/share/plymouth/themes/spinner/
+
+	## Update `initframs`
+	## ------------------
+	update-initramfs -u
+
+	## Import icons
+	## ------------
+	cp -r /tmp/blackbuntu/system/usr/share/icons/* /usr/share/icons/
+
+	## Import applications desktop
+	## ---------------------------
+	cp /tmp/blackbuntu/system/usr/share/applications/* /usr/share/applications/
+
+	## Edit system conf
+	## ----------------
+	sed -i "s/#DefaultTimeoutStartSec=90s/DefaultTimeoutStartSec=5s/" /etc/systemd/system.conf
+	sed -i "s/#DefaultTimeoutStopSec=90s/DefaultTimeoutStopSec=5s/" /etc/systemd/system.conf
+
+	## Remove launchers
+	## ----------------
+	rm -f /usr/share/applications/arduino.desktop
+	rm -f /usr/share/applications/edb.desktop
+	rm -f /usr/share/applications/ettercap.desktop
+	rm -f /usr/share/applications/guymager.desktop
+	rm -f /usr/share/applications/kismet.desktop
+	rm -f /usr/share/applications/lstopo.desktop
+	rm -f /usr/share/applications/lynis.desktop
+	rm -f /usr/share/applications/maltego_java_config.desktop
+	rm -f /usr/share/applications/maltego.desktop
+	rm -f /usr/share/applications/ophcrack.desktop
+	rm -f /usr/share/applications/org.wireshark.Wireshark.desktop
+	rm -f /usr/share/applications/torbrowser-settings.desktop
+	rm -f /usr/share/applications/ubiquity.desktop
+}
+
 ## Launch
 ## ------
 function launch()
@@ -380,7 +475,12 @@ function launch()
 	installcommons
 	installjava
 	installroller
-	installevolution
+
+	if [ $buildtype == "full" ];
+	then
+	    installevolution
+	fi
+
 	systemupdate
 	installcracking
 	installexploitation
@@ -396,6 +496,8 @@ function launch()
 	installwebapps
 	installwireless
 	systemupdate
+	systemclone
+	systemconfig
 }
 
 ## -------- ##

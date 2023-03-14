@@ -2,12 +2,36 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
     <wallpaper>
+        <name>Colored</name>
+        <name xml:lang="de">Colored</name>
+        <name xml:lang="en_GB">Colored</name>
+        <name xml:lang="fr">Colored</name>
+        <name xml:lang="hr">Colored</name>
+        <filename>/usr/share/backgrounds/blackbuntu-colored-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
         <name>DarkRed</name>
         <name xml:lang="de">DarkRed</name>
         <name xml:lang="en_GB">DarkRed</name>
         <name xml:lang="fr">DarkRed</name>
         <name xml:lang="hr">DarkRed</name>
         <filename>/usr/share/backgrounds/blackbuntu-darkred-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
+        <name>Default</name>
+        <name xml:lang="de">Default</name>
+        <name xml:lang="en_GB">Default</name>
+        <name xml:lang="fr">Default</name>
+        <name xml:lang="hr">Default</name>
+        <filename>/usr/share/backgrounds/blackbuntu-default-2560x1440.jpg</filename>
         <options>zoom</options>
         <pcolor>#333333</pcolor>
         <scolor>#333333</scolor>
@@ -32,18 +56,6 @@
         <name xml:lang="fr">Keyboard</name>
         <name xml:lang="hr">Keyboard</name>
         <filename>/usr/share/backgrounds/blackbuntu-keyboard-2560x1440.jpg</filename>
-        <options>zoom</options>
-        <pcolor>#333333</pcolor>
-        <scolor>#333333</scolor>
-        <shade_type>solid</shade_type>
-    </wallpaper>
-    <wallpaper>
-        <name>Minimalism</name>
-        <name xml:lang="de">Minimalism</name>
-        <name xml:lang="en_GB">Minimalism</name>
-        <name xml:lang="fr">Minimalism</name>
-        <name xml:lang="hr">Minimalism</name>
-        <filename>/usr/share/backgrounds/blackbuntu-minimalism-2560x1440.jpg</filename>
         <options>zoom</options>
         <pcolor>#333333</pcolor>
         <scolor>#333333</scolor>
