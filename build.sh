@@ -131,8 +131,8 @@ function aptsources()
 	add-apt-repository -y multiverse
 
 	cd /tmp/
-	wget -O - https://packages.blackbuntu.org/keys/blackbuntu.public | apt-key add -
-	echo "deb [arch=amd64] https://packages.blackbuntu.org stable main" | tee /etc/apt/sources.list.d/blackbuntu.list
+	wget -O - https://packages.blackbuntu.org/keys/blackbuntu.public | apt-key add - >/dev/null 2>&1
+	echo "deb [arch=amd64] https://packages.blackbuntu.org stable main" | tee /etc/apt/sources.list.d/blackbuntu.list >/dev/null 2>&1
 	cp /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d
 	cd /root/
 }
