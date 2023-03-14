@@ -218,18 +218,11 @@ function installruby()
 	apt-get -y install ruby ruby-dev
 }
 
-## Install `apt`
-## -------------
-function installapt()
-{
-	apt-get -y install apt-transport-https apt-utils
-}
-
 ## Install common packages
 ## -----------------------
 function installcommons()
 {
-	apt-get -y install apache2 asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre default-jdk dirmngr dkms doxygen easytag filezilla fuse3 g++ gcc gconf2 ghex git gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools ninja-build openvpn pidgin pkg-config proxychains screen screenfetch secure-delete shutter simplescreenrecorder socat software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
+	apt-get -y install apache2 apt-transport-https apt-utils asciinema autoconf autopsy binutils binwalk build-essential cmake curl debootstrap default-jre default-jdk dirmngr dkms doxygen easytag filezilla fuse3 g++ gcc gconf2 ghex git gpg gr-osmosdr hexedit httrack jq kate keepassxc macchanger make mtools net-tools ninja-build openvpn pidgin pkg-config proxychains screen screenfetch secure-delete shutter simplescreenrecorder socat software-properties-common squashfs-tools subversion swig synaptic tree tor torbrowser-launcher vim wget xorriso
 }
 
 ## Install Java SE
@@ -385,7 +378,6 @@ function launch()
 	installpython
 	installqt5
 	installruby
-	installapt
 	installcommons
 	installjava
 	installroller

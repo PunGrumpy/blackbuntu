@@ -7,6 +7,7 @@
 #### Libraries
 
 - [libbz2-dev](https://packages.ubuntu.com/jammy/libbz2-dev)
+- [libc6-x32](https://packages.ubuntu.com/jammy/libc6-x32)
 - [libcppunit-dev](https://packages.ubuntu.com/jammy/libcppunit-dev)
 - [libcurl4-openssl-dev](https://packages.ubuntu.com/jammy/libcurl4-openssl-dev)
 - [libffi-dev](https://packages.ubuntu.com/jammy/libffi-dev)
@@ -39,9 +40,51 @@
 
 * * *
 
-#### Common
+#### Python
+
+- [python3-flask](https://packages.ubuntu.com/jammy/python3-flask)
+- [python3-future](https://packages.ubuntu.com/jammy/python3-future)
+- [python3-geoip](https://packages.ubuntu.com/jammy/python3-geoip)
+- [python3-httplib2](https://packages.ubuntu.com/jammy/python3-httplib2)
+- [python3-numpy](https://packages.ubuntu.com/jammy/python3-numpy)
+- [python3-paramiko](https://packages.ubuntu.com/jammy/python3-paramiko)
+- [python3-pip](https://packages.ubuntu.com/jammy/python3-pip)
+- [python3-psutil](https://packages.ubuntu.com/jammy/python3-psutil)
+- [python3-pycurl](https://packages.ubuntu.com/jammy/python3-pycurl)
+- [python3-pyqt5](https://packages.ubuntu.com/jammy/python3-pyqt5)
+- [python3-requests](https://packages.ubuntu.com/jammy/python3-requests)
+- [python3-scapy](https://packages.ubuntu.com/jammy/python3-scapy)
+- [python3-scipy](https://packages.ubuntu.com/jammy/python3-scipy)
+- [python3-setuptools](https://packages.ubuntu.com/jammy/python3-setuptools)
+- [python3-urllib3](https://packages.ubuntu.com/jammy/python3-urllib3)
+- [python3-virtualenv](https://packages.ubuntu.com/jammy/python3-virtualenv)
+- [python3-wheel](https://packages.ubuntu.com/jammy/python3-wheel)
+
+* * *
+
+#### Qt5
+
+- [pyqt5-dev](https://packages.ubuntu.com/jammy/pyqt5-dev)
+- [pyqt5-dev-tools](https://packages.ubuntu.com/jammy/pyqt5-dev-tools)
+- [qttools5-dev-tools](https://packages.ubuntu.com/jammy/qttools5-dev-tools)
+- [qt5-doc](https://packages.ubuntu.com/jammy/qt5-doc)
+- [qt5-doc-html](https://packages.ubuntu.com/jammy/qt5-doc-html)
+- [qtbase5-examples](https://packages.ubuntu.com/jammy/qtbase5-examples)
+- [qtcreator](https://packages.ubuntu.com/jammy/qtcreator)
+
+
+* * *
+
+#### Ruby
+
+- [ruby](https://packages.ubuntu.com/jammy/ruby)
+- [ruby-dev](https://packages.ubuntu.com/jammy/ruby-dev)
+
+* * *
 
 - [apache2](https://packages.ubuntu.com/jammy/apache2)
+- [apt-transport-https](https://packages.ubuntu.com/jammy/apt-transport-https)
+- [apt-utils](https://packages.ubuntu.com/jammy/apt-utils)
 - [asciinema](https://packages.ubuntu.com/jammy/asciinema)
 - [autoconf](https://packages.ubuntu.com/jammy/autoconf)
 - [autopsy](https://packages.ubuntu.com/jammy/autopsy)
@@ -52,6 +95,7 @@
 - [curl](https://packages.ubuntu.com/jammy/curl)
 - [debootstrap](https://packages.ubuntu.com/jammy/debootstrap)
 - [default-jre](https://packages.ubuntu.com/jammy/default-jre)
+- [default-jdk](https://packages.ubuntu.com/jammy/default-jdk)
 - [dirmngr](https://packages.ubuntu.com/jammy/dirmngr)
 - [dkms](https://packages.ubuntu.com/jammy/dkms)
 - [doxygen](https://packages.ubuntu.com/jammy/doxygen)
@@ -63,10 +107,7 @@
 - [gconf2](https://packages.ubuntu.com/jammy/gconf2)
 - [ghex](https://packages.ubuntu.com/jammy/ghex)
 - [git](https://packages.ubuntu.com/jammy/git)
-- [gnuradio](https://packages.ubuntu.com/jammy/gnuradio)
-- [gnuradio-dev](https://packages.ubuntu.com/jammy/gnuradio-dev)
 - [gpg](https://packages.ubuntu.com/jammy/gpg)
-- [gr-osmosdr](https://packages.ubuntu.com/jammy/gr-osmosdr)
 - [hexedit](https://packages.ubuntu.com/jammy/hexedit)
 - [httrack](https://packages.ubuntu.com/jammy/httrack)
 - [jq](https://packages.ubuntu.com/jammy/jq)
@@ -76,6 +117,7 @@
 - [make](https://packages.ubuntu.com/jammy/make)
 - [mtools](https://packages.ubuntu.com/jammy/mtools)
 - [net-tools](https://packages.ubuntu.com/jammy/net-tools)
+- [ninja-build](https://packages.ubuntu.com/jammy/ninja-build)
 - [openvpn](https://packages.ubuntu.com/jammy/openvpn)
 - [pidgin](https://packages.ubuntu.com/jammy/pidgin)
 - [pkg-config](https://packages.ubuntu.com/jammy/pkg-config)
@@ -83,7 +125,9 @@
 - [screen](https://packages.ubuntu.com/jammy/screen)
 - [screenfetch](https://packages.ubuntu.com/jammy/screenfetch)
 - [secure-delete](https://packages.ubuntu.com/jammy/secure-delete)
+- [shutter](https://packages.ubuntu.com/jammy/shutter)
 - [simplescreenrecorder](https://packages.ubuntu.com/jammy/simplescreenrecorder)
+- [socat](https://packages.ubuntu.com/jammy/socat)
 - [software-properties-common](https://packages.ubuntu.com/jammy/software-properties-common)
 - [squashfs-tools](https://packages.ubuntu.com/jammy/squashfs-tools)
 - [subversion](https://packages.ubuntu.com/jammy/subversion)
@@ -92,10 +136,44 @@
 - [tree](https://packages.ubuntu.com/jammy/tree)
 - [tor](https://packages.ubuntu.com/jammy/tor)
 - [torbrowser-launcher](https://packages.ubuntu.com/jammy/torbrowser-launcher)
-- [ubiquity](https://packages.ubuntu.com/jammy/ubiquity)
 - [vim](https://packages.ubuntu.com/jammy/vim)
 - [wget](https://packages.ubuntu.com/jammy/wget)
 - [xorriso](https://packages.ubuntu.com/jammy/xorriso)
+
+* * *
+
+#### Gnome
+
+- [gnome-shell-extension-manager](https://packages.ubuntu.com/jammy/gnome-shell-extension-manager)
+- [gnome-shell-extensions](https://packages.ubuntu.com/jammy/gnome-shell-extensions)
+- [gnome-firmware](https://packages.ubuntu.com/jammy/gnome-firmware)
+- [gnome-tweaks](https://packages.ubuntu.com/jammy/gnome-tweaks)
+
+
+* * *
+
+#### Java
+
+- openjdk-17-jdk
+- openjdk-17-jre
+- openjdk-19-jdk
+- openjdk-19-jre
+
+* * *
+
+#### Files roller
+
+- [p7zip-full](https://packages.ubuntu.com/jammy/p7zip-full)
+- [p7zip-rar](https://packages.ubuntu.com/jammy/p7zip-rar)
+- [rar](https://packages.ubuntu.com/jammy/rar)
+- [unrar](https://packages.ubuntu.com/jammy/unrar)
+
+* * *
+
+#### Mail Client
+
+- [evolution](https://packages.ubuntu.com/jammy/evolution)
+- [evolution-ews](https://packages.ubuntu.com/jammy/evolution-ews)
 
 * * *
 
