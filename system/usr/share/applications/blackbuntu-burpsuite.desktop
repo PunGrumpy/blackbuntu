@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Categories=Exploitation;
-Exec=/usr/bin/java -jar /opt/blackbuntu/exploitation/burpsuite/burpsuite.jar
-Icon=/usr/share/icons/blackbuntu/blackbuntu-burpsuite.png
-Name=Burpsuite
-Terminal=false
-Type=Application

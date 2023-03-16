@@ -17,44 +17,7 @@ sudo apt-get -y install virtualbox virtualbox-dkms virtualbox-guest-utils
 
 * * *
 
-#### 3. Install `metasploit`
-
-```shell
-cd /tmp/
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
-chmod +x msfinstall
-sudo ./msfinstall
-msfconsole
-cd /
-```
-
-* * *
-
-#### 4. Install `gimp`
-
-```shell
-sudo apt-get -y install gimp gimp-data gimp-data-extras gimp-plugin-registry gimp-texturize
-```
-
-* * *
-
-#### 5. Install `inkscape`
-
-```shell
-sudo apt-get -y install inkscape
-```
-
-* * *
-
-#### 6. Install `kdenlive`
-
-```shell
-sudo apt-get -y install kdenlive
-```
-
-* * *
-
-#### 7. Install `sublime-text`
+#### 3. Install `sublime-text`
 
 ```shell
 cd /tmp/
@@ -64,9 +27,23 @@ sudo apt-get -y update && sudo apt-get -y install sublime-text
 cd /
 ```
 
+#### 4. Install `filezilla`
+
+```shell
+sudo apt-get -y install filezilla
+```
+
 * * *
 
-#### 8. Install `pyside2`
+#### 5. Install `shutter`
+
+```shell
+sudo apt-get -y install shutter
+```
+
+* * *
+
+#### 6. Install `pyside2`
 
 ```shell
 python3 -m pip install pyside2
