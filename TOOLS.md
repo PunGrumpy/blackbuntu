@@ -192,15 +192,16 @@
 - [patator](https://packages.ubuntu.com/jammy/patator)
 - [crowbar](https://github.com/galkan/crowbar)
 - [gpp-decrypt](https://blog.carnal0wnage.com/2012/10/group-policy-preferences-and-getting.html)
-- [rainbowcrack](https://project-rainbowcrack.com/)
-- [rsmangler](https://digi.ninja/projects/rsmangler.php)
+- [rainbowcrack](http://project-rainbowcrack.com/)
+- [rsmangler](https://github.com/digininja/RSMangler)
 - [truecrack](https://github.com/lvaccaro/truecrack)
 
 * * *
 
 #### Crypto
 
-- [electrum](https://electrum.org/)
+- [electrum-btc](https://electrum.org/)
+- [electrum-ltc](https://electrum-ltc.org/)
 - [monero](https://www.getmonero.org/)
 
 * * *
@@ -209,6 +210,7 @@
 
 - [websploit](https://packages.ubuntu.com/jammy/websploit)
 - [yersinia](https://packages.ubuntu.com/jammy/yersinia)
+- [burpsuite](https://portswigger.net/burp)
 - [cge](http://www.blackangels.it/)
 - [commix](https://github.com/commixproject/commix)
 - [exe2hex](https://github.com/acjsec/exe2bam)
@@ -229,6 +231,7 @@
 - [galleta](https://packages.ubuntu.com/jammy/galleta)
 - [guymager](https://packages.ubuntu.com/jammy/guymager)
 - [p0f](https://packages.ubuntu.com/jammy/p0f)
+
 - [ddrescue](http://www.garloff.de/kurt/linux/ddrescue/)
 - [dumpzilla](https://www.dumpzilla.org/)
 - [pdfid](https://blog.didierstevens.com/programs/pdf-tools/)
