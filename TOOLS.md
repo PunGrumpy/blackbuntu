@@ -231,7 +231,6 @@
 - [galleta](https://packages.ubuntu.com/jammy/galleta)
 - [guymager](https://packages.ubuntu.com/jammy/guymager)
 - [p0f](https://packages.ubuntu.com/jammy/p0f)
-
 - [ddrescue](http://www.garloff.de/kurt/linux/ddrescue/)
 - [dumpzilla](https://www.dumpzilla.org/)
 - [pdfid](https://blog.didierstevens.com/programs/pdf-tools/)
