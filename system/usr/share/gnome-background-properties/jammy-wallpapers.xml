@@ -38,6 +38,18 @@
         <shade_type>solid</shade_type>
     </wallpaper>
     <wallpaper>
+        <name>GrayTeam</name>
+        <name xml:lang="de">GrayTeam</name>
+        <name xml:lang="en_GB">GrayTeam</name>
+        <name xml:lang="fr">GrayTeam</name>
+        <name xml:lang="hr">GrayTeam</name>
+        <filename>/usr/share/backgrounds/blackbuntu-grayteam-2560x1440.jpg</filename>
+        <options>zoom</options>
+        <pcolor>#333333</pcolor>
+        <scolor>#333333</scolor>
+        <shade_type>solid</shade_type>
+    </wallpaper>
+    <wallpaper>
         <name>Keyboard</name>
         <name xml:lang="de">Keyboard</name>
         <name xml:lang="en_GB">Keyboard</name>

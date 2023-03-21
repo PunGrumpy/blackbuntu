@@ -1,0 +1,120 @@
+#!/usr/bin/env bash
+#
+# [Release]: Blackbuntu 22.04.1 LTS amd64
+# [Website]: https://blackbuntu.org/p/releases/?ver=22.04.1
+# [License]: http://www.gnu.org/licenses/gpl-3.0.html
+#
+# Ascii Art : https://www.askapache.com/online-tools/figlet-ascii/
+
+## ---------------- ##
+## Define Variables ##
+## ---------------- ##
+
+## Colour output
+## -------------
+t_error="\033[01;31m"	# Error
+t_valid="\033[01;32m"	# Valid
+t_alert="\033[01;33m"	# Alert
+t_title="\033[01;34m"	# Title
+t_reset="\033[00m"		# Reset
+
+## Clear screen
+## ------------
+function clearscreen()
+{
+	clear
+	sleep 2s
+}
+
+## Keep alive
+## ----------
+function keepalive()
+{
+	sudo -v
+	while true;
+	do
+		sudo -n true;
+		sleep 60s;
+		kill -0 "$$" || exit;
+	done 2>/dev/null &
+}
+
+## Load banner
+## -----------
+function showbanner()
+{
+	clear
+	echo -e "${t_error}  _     _            _    _                 _          ${t_reset}"
+	echo -e "${t_error} | |   | |          | |  | |               | |         ${t_reset}"
+	echo -e "${t_error} | |__ | | __ _  ___| | _| |__  _   _ _ __ | |_ _   _  ${t_reset}"
+	echo -e "${t_error} | '_ \| |/ _' |/ __| |/ / '_ \| | | | '_ \| __| | | | ${t_reset}"
+	echo -e "${t_error} | |_) | | (_| | (__|   <| |_) | |_| | | | | |_| |_| | ${t_reset}"
+	echo -e "${t_error} |_'__/|_|\__'_|\___|_|\_\_'__/ \__'_|_| |_|\__|\__'_| ${t_reset}"
+	echo -e "${t_error}                                      v22.04 LTS amd64 ${t_reset}"
+	echo
+	echo -e "${t_valid}[i] [Package]: blackbuntu-upgrader${t_reset}"
+	echo -e "${t_valid}[i] [Website]: https://blackbuntu.org${t_reset}"
+  	sleep 3s
+}
+
+## Warning
+## -------
+function warning()
+{
+	echo
+    echo -e "${t_error}*** Warning ***${t_reset}"
+    echo -e "${t_error}You are about to upgrade the core distribution and packages to their latest versions${t_reset}"
+    echo -e "${t_error}We recommend to exit all other programs before to proceed${t_reset}"
+    echo
+    read -p "Do you want to continue? [y/N] " yn
+    case $yn in
+        [Yy]* )
+            ;;
+        [Nn]* )
+            exit
+            ;;
+        * )
+            exit
+            ;;
+    esac
+}
+
+## Upgrade System
+## --------------
+function upgradesystem()
+{
+    sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade
+	echo -e "[+] System upgraded\n"
+}
+
+## Terminate
+## ---------
+function terminate()
+{
+	echo -e "Process completed"
+	sleep 1s
+}
+
+## Launch
+## ------
+function launch()
+{
+	flushtime=`date +%s.%N`
+
+	clearscreen
+	keepalive
+	showbanner
+	warning
+	upgradesystem
+	terminate
+
+	endtime=`date +%s.%N`
+	runtime=$( echo "$endtime - $flushtime" | bc -l )
+	echo -e "Executed within $runtime seconds"
+}
+
+## -------- ##
+## Callback ##
+## -------- ##
+
+launch

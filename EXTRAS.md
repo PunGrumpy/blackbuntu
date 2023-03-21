@@ -9,15 +9,7 @@ sudo apt-get -y update && sudo apt-get -y install cubic
 
 * * *
 
-#### 2. Install `virtualbox`
-
-```shell
-sudo apt-get -y install virtualbox virtualbox-dkms virtualbox-guest-utils
-```
-
-* * *
-
-#### 3. Install `sublime-text`
+#### 2. Install `sublime-text`
 
 ```shell
 cd /tmp/
@@ -27,7 +19,7 @@ sudo apt-get -y update && sudo apt-get -y install sublime-text
 cd /
 ```
 
-#### 4. Install `filezilla`
+#### 3. Install `filezilla`
 
 ```shell
 sudo apt-get -y install filezilla
@@ -35,7 +27,7 @@ sudo apt-get -y install filezilla
 
 * * *
 
-#### 5. Install `shutter`
+#### 4. Install `shutter`
 
 ```shell
 sudo apt-get -y install shutter
@@ -43,17 +35,63 @@ sudo apt-get -y install shutter
 
 * * *
 
-#### 6. Install `pyside2`
-
-```shell
-python3 -m pip install pyside2
-```
-
-* * *
-
-#### 7. Install `git-lfs`
+#### 5. Install `git-lfs`
 
 ```shell
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 sudo apt-get install git-lfs
+```
+
+* * *
+
+#### 6. Install `metasploit`
+
+```shell
+cd /tmp/
+wget -O "msfinstall" "https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb"
+chmod +x msfinstall
+./msfinstall
+sudo mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/metasploit-keyring.gpg
+cd /
+```
+
+* * *
+
+#### 7. Install `gimp`
+
+```shell
+sudo apt-get -y install gimp gimp-data gimp-data-extras gimp-plugin-registry gimp-texturize
+```
+
+* * *
+
+#### 8. Install `inkscape`
+
+```shell
+sudo apt-get -y install inkscape
+```
+
+* * *
+
+#### 9. Install `kdenlive`
+
+```shell
+sudo apt-get -y install kdenlive
+```
+
+* * *
+
+#### 10. Install `evolution`
+
+```shell
+sudo apt-get -y install evolution evolution-ews
+```
+
+
+* * *
+
+#### 9. Install `libreoffice`
+
+```shell
+sudo apt-get -y install libreoffice
 ```
