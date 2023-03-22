@@ -1,13 +1,9 @@
 [org/gnome/desktop/app-folders]
-folder-children=['cracking', 'crypto', 'exploitation', 'forensics', 'hardening', 'information-gathering', 'networking', 'reverse-engineering', 'sniffing-spoofing', 'stress-testing', 'utilities', 'vulnerability-analysis', 'web-applications', 'wireless']
+folder-children=['cracking', 'exploitation', 'forensics', 'hardening', 'information-gathering', 'networking', 'reverse-engineering', 'sniffing-spoofing', 'stress-testing', 'utilities', 'vulnerability-analysis', 'web-applications', 'wireless']
 
 [org/gnome/desktop/app-folders/folders/cracking]
 categories=['Cracking']
 name='Cracking'
-
-[org/gnome/desktop/app-folders/folders/crypto]
-categories=['Crypto']
-name='Crypto'
 
 [org/gnome/desktop/app-folders/folders/exploitation]
 categories=['Exploitation']
