@@ -11,14 +11,13 @@
 function helpmenu()
 {
 	echo 
-	echo "Usage: blackbuntu [-h] [-u] [-g] [-l] [-r] [-c]"
+	echo "Usage: blackbuntu [-h] [-u] [-s] [-p] [-c]"
 	echo
 	echo "Options:"
 	echo "-h, --help			show this help"
-	echo "-u, --update			update the APT system cache"
-	echo "-g, --upgrade			upgrade the core distribution and packages"
-	echo "-l, --list			list all BlackBuntu packages"
-	echo "-r, --remove			remove orphaned and unnecessary package(s)"
+	echo "-u, --update			update the packages to their latest version"
+	echo "-s, --system			update the core distribution"
+	echo "-p, --packages		list all BlackBuntu packages and their status"
 	echo "-c, --clean			delete all temporary files, traces and logs"	
 }
 
@@ -32,23 +31,19 @@ do
       		exit 1
       		;;
     	-u|--update)
-      		echo "/usr/local/bin/blackbuntu-updater"
+      		/usr/share/blackbuntu/usr/bin/updater
         	exit 1
       		;;
-    	-g|--upgrade)
-      		echo "/usr/local/bin/blackbuntu-upgrader"
+    	-s|--system)
+      		/usr/share/blackbuntu/usr/bin/system
         	exit 1
       		;;
-    	-l|--list)
-      		echo "/usr/local/bin/blackbuntu-lister"
-        	exit 1
-      		;;
-      	-r|--remove)
-      		echo "/usr/local/bin/blackbuntu-remover"
+    	-p|--packages)
+      		/usr/share/blackbuntu/usr/bin/packages
         	exit 1
       		;;
     	-c|--clean)
-      		echo "/usr/local/bin/blackbuntu-cleaner"
+      		/usr/share/blackbuntu/usr/bin/cleaner
         	exit 1
       		;;
       	*)

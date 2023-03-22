@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+#
+# [Release]: Blackbuntu 22.04.1 LTS amd64
+# [Website]: https://blackbuntu.org/p/releases/?ver=22.04.1
+# [License]: http://www.gnu.org/licenses/gpl-3.0.html
+
+## Keep alive
+## ----------
+function keepalive()
+{
+	sudo -v
+	while true;
+	do
+		sudo -n true;
+		sleep 60s;
+		kill -0 "$$" || exit;
+	done 2>/dev/null &
+}
+
+## Upgrade System
+## --------------
+function upgradesystem()
+{
+    sudo apt-get -y dist-upgrade
+}
+
+## Terminate
+## ---------
+function terminate()
+{
+	echo -e "Process completed"
+	sleep 1s
+}
+
+## Launch
+## ------
+function launch()
+{
+	flushtime=`date +%s.%N`
+
+	keepalive
+	upgradesystem
+	terminate
+
+	endtime=`date +%s.%N`
+	runtime=$( echo "$endtime - $flushtime" | bc -l )
+	echo -e "Executed within $runtime seconds"
+}
+
+## -------- ##
+## Callback ##
+## -------- ##
+
+launch
