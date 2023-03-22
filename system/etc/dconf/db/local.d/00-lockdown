@@ -1,0 +1,87 @@
+[org/gnome/desktop/app-folders]
+folder-children=['cracking', 'crypto', 'exploitation', 'forensics', 'hardening', 'information-gathering', 'networking', 'reverse-engineering', 'sniffing-spoofing', 'stress-testing', 'utilities', 'vulnerability-analysis', 'web-applications', 'wireless']
+
+[org/gnome/desktop/app-folders/folders/cracking]
+categories=['Cracking']
+name='01 - Cracking'
+
+[org/gnome/desktop/app-folders/folders/crypto]
+categories=['Crypto']
+name='02 - Crypto'
+
+[org/gnome/desktop/app-folders/folders/exploitation]
+categories=['Exploitation']
+name='03 - Exploitation'
+
+[org/gnome/desktop/app-folders/folders/forensics]
+categories=['Forensics']
+name='04 - Forensics'
+
+[org/gnome/desktop/app-folders/folders/hardening]
+categories=['Hardening']
+name='05 - Hardening'
+
+[org/gnome/desktop/app-folders/folders/information-gathering]
+categories=['Information Gathering']
+name='06 - Information Gathering'
+
+[org/gnome/desktop/app-folders/folders/networking]
+categories=['Networking']
+name='07 - Networking'
+
+[org/gnome/desktop/app-folders/folders/reverse-engineering]
+categories=['Reverse Engineering']
+name='08 - Reverse Engineering'
+
+[org/gnome/desktop/app-folders/folders/sniffing-spoofing]
+categories=['Sniffing - Spoofing']
+name='09 - Sniffing - Spoofing'
+
+[org/gnome/desktop/app-folders/folders/stress-testing]
+categories=['Stress Testing']
+name='10 - Stress Testing'
+
+[org/gnome/desktop/app-folders/folders/utilities]
+categories=['Utilities']
+name='11 - Utilities'
+
+[org/gnome/desktop/app-folders/folders/vulnerability-analysis]
+categories=['Vulnerability Analysis']
+name='12 - Vulnerability Analysis'
+
+[org/gnome/desktop/app-folders/folders/web-applications]
+categories=['Web Applications']
+name='13 - Web Applications'
+
+[org/gnome/desktop/app-folders/folders/wireless]
+categories=['Wireless']
+name='14 - Wireless'
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri-dark='file:///usr/share/backgrounds/blackbuntu-redteam-2560x1440.jpg'
+primary-color='#333333'
+secondary-color='#333333'
+
+[org/gnome/desktop/interface]
+clock-show-seconds=true
+clock-show-weekday=true
+color-scheme='prefer-dark'
+font-hinting='slight'
+gtk-theme='Yaru-dark'
+icon-theme='Yaru'
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/blackbuntu-redteam-2560x1440.jpg'
+primary-color='#333333'
+secondary-color='#333333'
+
+[org/gnome/shell/extensions/dash-to-dock]
+dash-max-icon-size=32
+dock-fixed=false
+
+[org/gnome/shell/extensions/ding]
+icon-size='small'
