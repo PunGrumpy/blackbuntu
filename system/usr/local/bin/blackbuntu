@@ -11,14 +11,16 @@
 function helpmenu()
 {
 	echo 
-	echo "Usage: blackbuntu [-h] [-u] [-s] [-p] [-c]"
+	echo "Usage: blackbuntu [-h] [-i] [-f] [-u] [-s] [-p] [-c]"
 	echo
 	echo "Options:"
-	echo "-h, --help			show this help"
-	echo "-u, --update			update the packages to their latest version"
-	echo "-s, --system			update the core distribution"
-	echo "-p, --packages		list all BlackBuntu packages and their status"
-	echo "-c, --clean			delete all temporary files, traces and logs"	
+	echo " -h, --help           show this help"
+	echo " -i, --install        install a new package"
+	echo " -f, --full           install all available packages"
+	echo " -u, --update         update the packages to their latest version"
+	echo " -s, --system         update the core distribution"
+	echo " -p, --packages       list all BlackBuntu packages and their status"
+	echo " -c, --clean          delete all temporary files, traces and logs"	
 }
 
 ## Callback
@@ -30,6 +32,14 @@ do
       		helpmenu
       		exit 1
       		;;
+    	-i|--install)
+      		echo "/usr/share/blackbuntu/usr/bin/install"
+        	exit 1
+      		;;
+    	-f|--full)
+      		echo "/usr/share/blackbuntu/usr/bin/full"
+        	exit 1
+      		;;
     	-u|--update)
       		/usr/share/blackbuntu/usr/bin/updater
         	exit 1
@@ -39,7 +49,7 @@ do
         	exit 1
       		;;
     	-p|--packages)
-      		/usr/share/blackbuntu/usr/bin/packages
+      		echo "/usr/share/blackbuntu/usr/bin/packages"
         	exit 1
       		;;
     	-c|--clean)
