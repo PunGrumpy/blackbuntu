@@ -319,6 +319,14 @@ function correctperms()
     esac
 }
 
+## Clean System
+## -------------
+function cleansystem()
+{
+    sudo apt-get -y remove && sudo apt-get -y autoremove
+    sudo apt-get -y clean && sudo apt-get -y autoclean
+}
+
 ## Terminate
 ## ---------
 function terminate()
@@ -348,6 +356,7 @@ function launch()
 	deletevarlog
 	deletetrash
 	correctperms
+	cleansystem
 	terminate
 
 	endtime=`date +%s.%N`
