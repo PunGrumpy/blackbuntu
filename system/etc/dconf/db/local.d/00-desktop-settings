@@ -102,6 +102,7 @@ size=(900, 700)
 state=43908
 
 [org/gnome/shell]
+app-picker-layout=[{'cracking': <{'position': <0>}>, 'exploitation': <{'position': <1>}>, 'forensics': <{'position': <2>}>, 'hardening': <{'position': <3>}>, 'information-gathering': <{'position': <4>}>, 'networking': <{'position': <5>}>, 'reverse-engineering': <{'position': <6>}>, 'sniffing-spoofing': <{'position': <7>}>, 'stress-testing': <{'position': <8>}>, 'utilities': <{'position': <9>}>, 'vulnerability-analysis': <{'position': <10>}>, 'web-applications': <{'position': <11>}>, 'wireless': <{'position': <12>}>}]
 disable-user-extensions=false
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'torbrowser.desktop', 'org.kde.kate.desktop', 'org.keepassxc.KeePassXC.desktop', 'rhythmbox.desktop', 'snap-store_ubuntu-software.desktop', 'yelp.desktop']
