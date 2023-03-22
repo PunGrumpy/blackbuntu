@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Categories=Crypto;
-Exec=sh -c '/opt/blackbuntu/crypto/atomicwallet/atomicwallet.AppImage; $SHELL'
-Icon=/usr/share/icons/blackbuntu/blackbuntu-atomicwallet.png
-Name=Atomic Wallet
-Terminal=false
-Type=Application

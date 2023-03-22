@@ -267,12 +267,13 @@
 - [sslsplit](https://packages.ubuntu.com/jammy/sslsplit)
 - [traceroute](https://packages.ubuntu.com/jammy/traceroute)
 - [whois](https://packages.ubuntu.com/jammy/whois)
-- [enum4linux](https://www.portcullis-security.com/)
+- [enum4linux](http://www.portcullis-security.com/)
 - [fierce](https://github.com/mschwager/fierce)
 - [gnmap](https://github.com/themightyshiv/gnmap)
 - [lbd](http://ge.mine.nu/code/)
 - [linenum](https://github.com/rebootuser/LinEnum)
 - [phoneinfoga](https://github.com/sundowndev/phoneinfoga)
+- [maltego](https://www.maltego.com/)
 - [smtp-user-enum](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
 
 * * *
