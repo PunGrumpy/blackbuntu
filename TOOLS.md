@@ -94,6 +94,7 @@
 - [dirmngr](https://packages.ubuntu.com/jammy/dirmngr)
 - [dkms](https://packages.ubuntu.com/jammy/dkms)
 - [dpkg-sig](https://packages.ubuntu.com/jammy/dpkg-sig)
+- [dos2unix](https://packages.ubuntu.com/jammy/dos2unix)
 - [easytag](https://packages.ubuntu.com/jammy/easytag)
 - [fuse3](https://packages.ubuntu.com/jammy/fuse3)
 - [g++](https://packages.ubuntu.com/jammy/g++)
@@ -267,6 +268,7 @@
 - [maltego](https://www.maltego.com/)
 - [sherlock](https://github.com/sherlock-project/sherlock)
 - [smtp-user-enum](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
+- [thescrapper](https://github.com/champmq/thescrapper)
 
 * * *
 
