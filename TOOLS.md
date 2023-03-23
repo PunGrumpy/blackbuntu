@@ -265,6 +265,7 @@
 - [phoneinfoga](https://github.com/sundowndev/phoneinfoga)
 - [maigret](https://github.com/soxoj/maigret)
 - [maltego](https://www.maltego.com/)
+- [sherlock](https://github.com/sherlock-project/sherlock)
 - [smtp-user-enum](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
 
 * * *
