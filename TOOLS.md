@@ -7,8 +7,6 @@
 #### Libraries
 
 - [libbz2-dev](https://packages.ubuntu.com/jammy/libbz2-dev)
-- [libc6-x32](https://packages.ubuntu.com/jammy/libc6-x32)
-- [libcppunit-dev](https://packages.ubuntu.com/jammy/libcppunit-dev)
 - [libcurl4-openssl-dev](https://packages.ubuntu.com/jammy/libcurl4-openssl-dev)
 - [libffi-dev](https://packages.ubuntu.com/jammy/libffi-dev)
 - [libfmt-dev](https://packages.ubuntu.com/jammy/libfmt-dev)
@@ -20,11 +18,8 @@
 - [libgspell-1-dev](https://packages.ubuntu.com/jammy/libgspell-1-dev)
 - [libgtkmm-3.0-dev](https://packages.ubuntu.com/jammy/libgtkmm-3.0-dev)
 - [libgtksourceviewmm-3.0-dev](https://packages.ubuntu.com/jammy/libgtksourceviewmm-3.0-dev)
-- [liblog4cpp5-dev](https://packages.ubuntu.com/jammy/liblog4cpp5-dev)
 - [libncurses5-dev](https://packages.ubuntu.com/jammy/libncurses5-dev)
 - [libnss3-dev](https://packages.ubuntu.com/jammy/libnss3-dev)
-- [liborc-0.4-dev](https://packages.ubuntu.com/jammy/liborc-0.4-dev)
-- [libosmocore-dev](https://packages.ubuntu.com/jammy/libosmocore-dev)
 - [libreadline-dev](https://packages.ubuntu.com/jammy/libreadline-dev)
 - [libsodium-dev](https://packages.ubuntu.com/jammy/libsodium-dev)
 - [libspdlog-dev](https://packages.ubuntu.com/jammy/libspdlog-dev)
@@ -72,7 +67,6 @@
 - [qtbase5-examples](https://packages.ubuntu.com/jammy/qtbase5-examples)
 - [qtcreator](https://packages.ubuntu.com/jammy/qtcreator)
 
-
 * * *
 
 #### Ruby
@@ -87,7 +81,6 @@
 - [apache2](https://packages.ubuntu.com/jammy/apache2)
 - [apt-transport-https](https://packages.ubuntu.com/jammy/apt-transport-https)
 - [apt-utils](https://packages.ubuntu.com/jammy/apt-utils)
-- [asciinema](https://packages.ubuntu.com/jammy/asciinema)
 - [autoconf](https://packages.ubuntu.com/jammy/autoconf)
 - [autopsy](https://packages.ubuntu.com/jammy/autopsy)
 - [binutils](https://packages.ubuntu.com/jammy/binutils)
@@ -100,9 +93,8 @@
 - [default-jdk](https://packages.ubuntu.com/jammy/default-jdk)
 - [dirmngr](https://packages.ubuntu.com/jammy/dirmngr)
 - [dkms](https://packages.ubuntu.com/jammy/dkms)
-- [doxygen](https://packages.ubuntu.com/jammy/doxygen)
+- [dpkg-sig](https://packages.ubuntu.com/jammy/dpkg-sig)
 - [easytag](https://packages.ubuntu.com/jammy/easytag)
-- [filezilla](https://packages.ubuntu.com/jammy/filezilla)
 - [fuse3](https://packages.ubuntu.com/jammy/fuse3)
 - [g++](https://packages.ubuntu.com/jammy/g++)
 - [gcc](https://packages.ubuntu.com/jammy/gcc)
@@ -121,24 +113,20 @@
 - [net-tools](https://packages.ubuntu.com/jammy/net-tools)
 - [ninja-build](https://packages.ubuntu.com/jammy/ninja-build)
 - [openvpn](https://packages.ubuntu.com/jammy/openvpn)
-- [pidgin](https://packages.ubuntu.com/jammy/pidgin)
 - [pkg-config](https://packages.ubuntu.com/jammy/pkg-config)
 - [proxychains](https://packages.ubuntu.com/jammy/proxychains)
+- [reprepro](https://packages.ubuntu.com/jammy/reprepro)
 - [screen](https://packages.ubuntu.com/jammy/screen)
 - [screenfetch](https://packages.ubuntu.com/jammy/screenfetch)
 - [secure-delete](https://packages.ubuntu.com/jammy/secure-delete)
-- [shutter](https://packages.ubuntu.com/jammy/shutter)
 - [simplescreenrecorder](https://packages.ubuntu.com/jammy/simplescreenrecorder)
 - [socat](https://packages.ubuntu.com/jammy/socat)
 - [software-properties-common](https://packages.ubuntu.com/jammy/software-properties-common)
 - [squashfs-tools](https://packages.ubuntu.com/jammy/squashfs-tools)
-- [subversion](https://packages.ubuntu.com/jammy/subversion)
-- [swig](https://packages.ubuntu.com/jammy/swig)
 - [synaptic](https://packages.ubuntu.com/jammy/synaptic)
 - [tree](https://packages.ubuntu.com/jammy/tree)
 - [tor](https://packages.ubuntu.com/jammy/tor)
 - [torbrowser-launcher](https://packages.ubuntu.com/jammy/torbrowser-launcher)
-- [vim](https://packages.ubuntu.com/jammy/vim)
 - [wget](https://packages.ubuntu.com/jammy/wget)
 - [xorriso](https://packages.ubuntu.com/jammy/xorriso)
 
@@ -150,7 +138,6 @@
 - [gnome-shell-extensions](https://packages.ubuntu.com/jammy/gnome-shell-extensions)
 - [gnome-firmware](https://packages.ubuntu.com/jammy/gnome-firmware)
 - [gnome-tweaks](https://packages.ubuntu.com/jammy/gnome-tweaks)
-
 
 * * *
 
@@ -218,6 +205,7 @@
 - [exe2hex](https://github.com/acjsec/exe2bam)
 - [jexboss](https://github.com/joaomatosf/jexboss)
 - [libenom](https://github.com/Bounteous17/libenom)
+- [metasploit](https://www.metasploit.com)
 - [routersploit](https://github.com/threat9/routersploit)
 - [sharpmeter](https://github.com/vvalien/SharpMeter/)
 - [shellnoob](https://github.com/reyammer/shellnoob)
@@ -275,6 +263,7 @@
 - [lbd](http://ge.mine.nu/code/)
 - [linenum](https://github.com/rebootuser/LinEnum)
 - [phoneinfoga](https://github.com/sundowndev/phoneinfoga)
+- [maigret](https://github.com/soxoj/maigret)
 - [maltego](https://www.maltego.com/)
 - [smtp-user-enum](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
 
