@@ -268,6 +268,8 @@
 - [maltego](https://www.maltego.com/)
 - [sherlock](https://github.com/sherlock-project/sherlock)
 - [smtp-user-enum](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
+- [spiderfoot](https://github.com/smicallef/spiderfoot)
+- [theharvester](https://github.com/laramies/theharvester)
 - [thescrapper](https://github.com/champmq/thescrapper)
 
 * * *
