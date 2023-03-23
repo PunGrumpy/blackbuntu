@@ -2,7 +2,7 @@
 Version=1.0
 Categories=Hardening;
 Exec=sh -c 'apktool --help; $SHELL'
-Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
+Icon=/usr/share/icons/blackbuntu/blackbuntu-apktool.png
 Name=ApkTool
 Terminal=true
 Type=Application

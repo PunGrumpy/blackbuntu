@@ -2,7 +2,7 @@
 Version=1.0
 Categories=Wireless;
 Exec=sh -c 'aircrack-ng; $SHELL'
-Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
+Icon=/usr/share/icons/blackbuntu/blackbuntu-aircrack-ng.png
 Name=Aircrack NG
 Terminal=true
 Type=Application
