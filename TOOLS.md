@@ -206,6 +206,9 @@
 
 #### Forensics
 
+- [aesfix](https://packages.ubuntu.com/jammy/aesfix)
+- [aeskeyfind](https://packages.ubuntu.com/jammy/aeskeyfind)
+- [afflib-tools](https://packages.ubuntu.com/jammy/afflib-tools)
 - [chntpw](https://packages.ubuntu.com/jammy/chntpw)
 - [dc3dd](https://packages.ubuntu.com/jammy/dc3dd)
 - [extundelete](https://packages.ubuntu.com/jammy/extundelete)
@@ -271,9 +274,6 @@
 - [dns2tcp](https://packages.ubuntu.com/jammy/dns2tcp)
 - [httptunnel](https://packages.ubuntu.com/jammy/httptunnel)
 - [netcat](https://packages.ubuntu.com/jammy/netcat)
-- [cryptcat](https://packages.ubuntu.com/focal/cryptcat)
-- [dns2tcp](https://packages.ubuntu.com/focal/dns2tcp)
-- [httptunnel](https://packages.ubuntu.com/focal/httptunnel)
 - [cymothoa](http://cymothoa.sourceforge.net/)
 - [nishang](https://github.com/samratashok/nishang)
 - [powersploit](https://github.com/PowerShellMafia/PowerSploit)
@@ -333,6 +333,7 @@
 
 #### Vulnerability Analysis
 
+- [afl++](https://packages.ubuntu.com/jammy/afl++)
 - [doona](https://packages.ubuntu.com/jammy/doona)
 - [sqlmap](https://packages.ubuntu.com/jammy/sqlmap)
 - [bed](http://ww5.snake-basket.de/)
