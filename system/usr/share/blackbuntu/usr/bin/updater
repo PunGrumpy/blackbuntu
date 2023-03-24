@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# [Release]: Blackbuntu 22.04.1 LTS amd64
+# [Release]: Blackbuntu 22.04.2 LTS amd64
 # [Website]: https://blackbuntu.org/p/releases/?ver=22.04.1
 # [License]: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,6 +22,17 @@ function keepalive()
 function updatesystem()
 {
     sudo apt-get -y update && sudo apt-get -y upgrade
+
+	## Github Update
+	## -------------
+	cd /tmp/
+	sudo wget -q -O /tmp/update.sh "https://raw.githubusercontent.com/neoslab/blackbuntu/master/update.sh"
+	if [ -f "/tmp/update.sh" ];
+	then
+		sudo chmod +x /tmp/update.sh
+		sudo bash /tmp/update.sh
+		sudo rm -f /tmp/update.sh
+	fi
 }
 
 ## Terminate
