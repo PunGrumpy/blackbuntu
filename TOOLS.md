@@ -142,15 +142,6 @@
 
 * * *
 
-#### Java
-
-- openjdk-17-jdk
-- openjdk-17-jre
-- openjdk-19-jdk
-- openjdk-19-jre
-
-* * *
-
 #### Files roller
 
 - [p7zip-full](https://packages.ubuntu.com/jammy/p7zip-full)

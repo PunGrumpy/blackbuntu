@@ -1,6 +1,56 @@
 ### Extras
 
-#### 1. Install `cubic`
+* * *
+
+#### 1. Install `burpsuite`
+
+* * *
+
+```shell
+sudo apt-get -y install burpsuite
+```
+
+* * *
+
+#### 2. Install `electrum-btc`
+
+```shell
+sudo apt-get -y install electrum-btc
+```
+
+* * *
+
+#### 3. Install `electrum-ltc`
+
+```shell
+sudo apt-get -y install electrum-ltc
+```
+
+* * *
+
+#### 4. Install `monerowallet`
+
+```shell
+sudo apt-get -y install monerowallet
+```
+
+* * *
+
+#### 5. Install `maltego`
+
+```shell
+sudo apt-get -y install maltego
+```
+
+* * *
+
+#### 6. Install `metasploit`
+
+```shell
+sudo apt-get -y install metasploit
+```
+
+#### 7. Install `cubic`
 
 ```shell
 sudo apt-add-repository -y ppa:cubic-wizard/release
@@ -9,7 +59,7 @@ sudo apt-get -y update && sudo apt-get -y install cubic
 
 * * *
 
-#### 2. Install `sublime-text`
+#### 8. Install `sublime-text`
 
 ```shell
 cd /tmp/
@@ -19,7 +69,7 @@ sudo apt-get -y update && sudo apt-get -y install sublime-text
 cd /
 ```
 
-#### 3. Install `filezilla`
+#### 9. Install `filezilla`
 
 ```shell
 sudo apt-get -y install filezilla
@@ -27,7 +77,7 @@ sudo apt-get -y install filezilla
 
 * * *
 
-#### 4. Install `shutter`
+#### 10. Install `shutter`
 
 ```shell
 sudo apt-get -y install shutter
@@ -35,7 +85,7 @@ sudo apt-get -y install shutter
 
 * * *
 
-#### 5. Install `git-lfs`
+#### 11. Install `git-lfs`
 
 ```shell
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
@@ -44,20 +94,7 @@ sudo apt-get install git-lfs
 
 * * *
 
-#### 6. Install `metasploit`
-
-```shell
-cd /tmp/
-wget -O "msfinstall" "https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb"
-chmod +x msfinstall
-./msfinstall
-sudo mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/metasploit-keyring.gpg
-cd /
-```
-
-* * *
-
-#### 7. Install `gimp`
+#### 12. Install `gimp`
 
 ```shell
 sudo apt-get -y install gimp gimp-data gimp-data-extras gimp-plugin-registry gimp-texturize
@@ -65,7 +102,7 @@ sudo apt-get -y install gimp gimp-data gimp-data-extras gimp-plugin-registry gim
 
 * * *
 
-#### 8. Install `inkscape`
+#### 13. Install `inkscape`
 
 ```shell
 sudo apt-get -y install inkscape
@@ -73,7 +110,7 @@ sudo apt-get -y install inkscape
 
 * * *
 
-#### 9. Install `kdenlive`
+#### 14. Install `kdenlive`
 
 ```shell
 sudo apt-get -y install kdenlive
@@ -81,16 +118,15 @@ sudo apt-get -y install kdenlive
 
 * * *
 
-#### 10. Install `evolution`
+#### 15. Install `evolution`
 
 ```shell
 sudo apt-get -y install evolution evolution-ews
 ```
 
-
 * * *
 
-#### 9. Install `libreoffice`
+#### 16. Install `libreoffice`
 
 ```shell
 sudo apt-get -y install libreoffice

@@ -2,7 +2,7 @@
 
 * * *
 
-#### 1. Update Burpsuite to the latest version
+#### 1. Update Burpsuite to the latest version on BlackBuntu v22.04.1
 
 ```shell
 sudo apt-get -y install libc6-x32
@@ -21,7 +21,7 @@ cd /
 
 * * *
 
-#### 2. Update Electrum BTC AppImage
+#### 2. Update Electrum BTC AppImage on BlackBuntu v22.04.1
 
 ```shell
 cd /tmp/
@@ -34,7 +34,7 @@ cd /
 
 * * *
 
-#### 3. Update Electrum LTC AppImage
+#### 3. Update Electrum LTC AppImage on BlackBuntu v22.04.1
 
 ```shell
 cd /tmp/
@@ -47,7 +47,7 @@ cd /
 
 * * *
 
-#### 4. Update Monero GUI Wallet
+#### 4. Update Monero GUI Wallet on BlackBuntu v22.04.1
 
 ```shell
 cd /tmp/
@@ -60,7 +60,7 @@ cd /
 
 * * *
 
-#### 5. Python 3 PIP Warning 'Consider adding this directory to PATH'
+#### 5. Python 3 PIP Warning 'Consider adding this directory to PATH' on BlackBuntu v22.04.1
 
 ```shell
 nano /home/$USER/.bashrc
@@ -68,7 +68,7 @@ nano /home/$USER/.bashrc
 
 Once the editor is open, add the following at the bottom and save it. You can directly press `Ctrl+End` to reach the end of the file.
 
-```
+```plain
 # PIP Export Path 
 # ===============
 export PATH=$PATH:/home/$USER/.local/bin
